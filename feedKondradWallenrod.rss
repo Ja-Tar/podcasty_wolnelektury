@@ -11,149 +11,150 @@
         <itunes:category text="Arts">
             <itunes:category text="Books"/>
         </itunes:category>
+        <itunes:type>serial</itunes:type>
         
         <item>
-            <title>01. Adam Mickiewicz, Konrad Wallenrod, Wstęp</title>
+            <title>Wstęp</title>
+            <itunes:episode>1</itunes:episode>
             <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
             <itunes:duration></itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_001_wstep.mp3</link>
             <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_001_wstep.mp3</guid>
             <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_001_wstep.mp3" type="audio/mpeg"/>
-            <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
         </item>
 
         <item>
-            <title>02. Adam Mickiewicz, Konrad Wallenrod, Pieśń I. Obiór</title>
+            <title>Pieśń I. Obiór</title>
+            <itunes:episode>2</itunes:episode>
             <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
             <itunes:duration></itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_002_piesn-i-obior.mp3</link>
             <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_002_piesn-i-obior.mp3</guid>
             <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_002_piesn-i-obior.mp3" type="audio/mpeg"/>
-            <pubDate>Wed, 01 Jan 2020 00:00:01 +0000</pubDate>
         </item>
 
         <item>
-            <title>03. Adam Mickiewicz, Konrad Wallenrod, Pieśń II</title>
+            <title>Pieśń II</title>
+            <itunes:episode>3</itunes:episode>
             <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
             <itunes:duration></itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_003_piesn-ii.mp3</link>
             <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_003_piesn-ii.mp3</guid>
             <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_003_piesn-ii.mp3" type="audio/mpeg"/>
-            <pubDate>Wed, 01 Jan 2020 00:00:02 +0000</pubDate>
         </item>
 
         <item>
-            <title>04. Adam Mickiewicz, Konrad Wallenrod, Pieśń</title>
+            <title>Pieśń</title>
+            <itunes:episode>4</itunes:episode>
             <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
             <itunes:duration></itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_004_piesn.mp3</link>
             <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_004_piesn.mp3</guid>
             <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_004_piesn.mp3" type="audio/mpeg"/>
-            <pubDate>Wed, 01 Jan 2020 00:00:03 +0000</pubDate>
         </item>
 
         <item>
-            <title>05. Adam Mickiewicz, Konrad Wallenrod, Pieśń III</title>
+            <title>Pieśń III</title>
+            <itunes:episode>5</itunes:episode>
             <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
             <itunes:duration></itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_005_piesn-iii.mp3</link>
             <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_005_piesn-iii.mp3</guid>
             <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_005_piesn-iii.mp3" type="audio/mpeg"/>
-            <pubDate>Wed, 01 Jan 2020 00:00:04 +0000</pubDate>
         </item>
 
         <item>
-            <title>06. Adam Mickiewicz, Konrad Wallenrod, Pieśń z wieży</title>
+            <title>Pieśń z wieży</title>
+            <itunes:episode>6</itunes:episode>
             <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
             <itunes:duration></itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_006_piesn-z-wiezy.mp3</link>
             <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_006_piesn-z-wiezy.mp3</guid>
             <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_006_piesn-z-wiezy.mp3" type="audio/mpeg"/>
-            <pubDate>Wed, 01 Jan 2020 00:00:05 +0000</pubDate>
         </item>
 
         <!-- https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_007_piesn-iv.mp3 -->
 
         <item>
-            <title>07. Adam Mickiewicz, Konrad Wallenrod, Pieśń IV</title>
+            <title>Pieśń IV</title>
+            <itunes:episode>7</itunes:episode>
             <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
             <itunes:duration></itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_007_piesn-iv.mp3</link>
             <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_007_piesn-iv.mp3</guid>
             <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_007_piesn-iv.mp3" type="audio/mpeg"/>
-            <pubDate>Wed, 01 Jan 2020 00:00:06 +0000</pubDate>
         </item>
 
         <!-- https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_008_piesn-wajdeloty.mp3 -->
 
         <item>
-            <title>08. Adam Mickiewicz, Konrad Wallenrod, Pieśń Wajdeloty</title>
+            <title>Pieśń Wajdeloty</title>
+            <itunes:episode>8</itunes:episode>
             <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
             <itunes:duration></itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_008_piesn-wajdeloty.mp3</link>
             <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_008_piesn-wajdeloty.mp3</guid>
             <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_008_piesn-wajdeloty.mp3" type="audio/mpeg"/>
-            <pubDate>Wed, 01 Jan 2020 00:00:07 +0000</pubDate>
         </item>
 
         <!-- https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_009_powiesc-wajdeloty.mp3 -->
         
         <item>
-            <title>09. Adam Mickiewicz, Konrad Wallenrod, Powieść Wajdeloty</title>
+            <title>Powieść Wajdeloty</title>
+            <itunes:episode>9</itunes:episode>
             <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
             <itunes:duration></itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_009_powiesc-wajdeloty.mp3</link>
             <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_009_powiesc-wajdeloty.mp3</guid>
             <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_009_powiesc-wajdeloty.mp3" type="audio/mpeg"/>
-            <pubDate>Wed, 01 Jan 2020 00:00:08 +0000</pubDate>
         </item>
 
         <!-- https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_010_ballada.mp3 -->
 
         <item>
-            <title>10. Adam Mickiewicz, Konrad Wallenrod, Ballada</title>
+            <title>Ballada</title>
+            <itunes:episode>10</itunes:episode>
             <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
             <itunes:duration></itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_010_ballada.mp3</link>
             <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_010_ballada.mp3</guid>
             <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_010_ballada.mp3" type="audio/mpeg"/>
-            <pubDate>Wed, 01 Jan 2020 00:00:09 +0000</pubDate>
         </item>
 
         <!-- https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_011_piesn-v.mp3 -->
 
         <item>
-            <title>11. Adam Mickiewicz, Konrad Wallenrod, Pieśń V</title>
+            <title>Pieśń V</title>
+            <itunes:episode>11</itunes:episode>
             <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
             <itunes:duration></itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_011_piesn-v.mp3</link>
             <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_011_piesn-v.mp3</guid>
             <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_011_piesn-v.mp3" type="audio/mpeg"/>
-            <pubDate>Wed, 01 Jan 2020 00:00:10 +0000</pubDate>
         </item>
 
         <!-- https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_012_piesn-vi.mp3 -->
 
         <item>
-            <title>12. Adam Mickiewicz, Konrad Wallenrod, Pieśń VI</title>
+            <title>Pieśń VI</title>
+            <itunes:episode>12</itunes:episode>
             <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
             <itunes:duration></itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_012_piesn-vi.mp3</link>
             <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_012_piesn-vi.mp3</guid>
             <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_012_piesn-vi.mp3" type="audio/mpeg"/>
-            <pubDate>Wed, 01 Jan 2020 00:00:11 +0000</pubDate>
         </item>
 
         <!-- https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_013_przedmowa-do-wydania-zrodlowego-z-1861-r.mp3 -->
         
         <item>
-            <title>13. Adam Mickiewicz, Konrad Wallenrod, Przedmowa do wydania źródłowego z 1861 r.</title>
+            <title>Przedmowa do wydania źródłowego z 1861 r.</title>
+            <itunes:episode>13</itunes:episode>
             <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
             <itunes:duration></itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_013_przedmowa-do-wydania-zrodlowego-z-1861-r.mp3</link>
             <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_013_przedmowa-do-wydania-zrodlowego-z-1861-r.mp3</guid>
             <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_013_przedmowa-do-wydania-zrodlowego-z-1861-r.mp3" type="audio/mpeg"/>
-            <pubDate>Wed, 01 Jan 2020 00:00:12 +0000</pubDate>
         </item>
     </channel>
 </rss>
