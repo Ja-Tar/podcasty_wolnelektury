@@ -48,7 +48,89 @@
             <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_004_piesn.mp3" type="audio/mpeg"/>
         </item>
 
-        <!-- Continue this pattern for each episode -->
+        <item>
+            <title>05. Adam Mickiewicz, Konrad Wallenrod, Pieśń III</title>
+            <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
+            <itunes:duration></itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_005_piesn-iii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_005_piesn-iii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_005_piesn-iii.mp3" type="audio/mpeg"/>
+        </item>
+
+        <item>
+            <title>06. Adam Mickiewicz, Konrad Wallenrod, Pieśń z wieży</title>
+            <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
+            <itunes:duration></itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_006_piesn-z-wiezy.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_006_piesn-z-wiezy.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_006_piesn-z-wiezy.mp3" type="audio/mpeg"/>
+        </item>
+
+        <!-- https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_007_piesn-iv.mp3 -->
+
+        <item>
+            <title>07. Adam Mickiewicz, Konrad Wallenrod, Pieśń IV</title>
+            <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
+            <itunes:duration></itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_007_piesn-iv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_007_piesn-iv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_007_piesn-iv.mp3" type="audio/mpeg"/>
+        </item>
+
+        <!-- https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_008_piesn-wajdeloty.mp3 -->
+
+        <item>
+            <title>08. Adam Mickiewicz, Konrad Wallenrod, Pieśń Wajdeloty</title>
+            <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
+            <itunes:duration></itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_008_piesn-wajdeloty.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_008_piesn-wajdeloty.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_008_piesn-wajdeloty.mp3" type="audio/mpeg"/>
+        </item>
+
+        <!-- https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_009_powiesc-wajdeloty.mp3 -->
+        
+        <item>
+            <title>09. Adam Mickiewicz, Konrad Wallenrod, Powieść Wajdeloty</title>
+            <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
+            <itunes:duration></itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_009_powiesc-wajdeloty.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_009_powiesc-wajdeloty.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_009_powiesc-wajdeloty.mp3" type="audio/mpeg"/>
+        </item>
+
+        <!-- https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_010_ballada.mp3 -->
+
+        <item>
+            <title>10. Adam Mickiewicz, Konrad Wallenrod, Ballada</title>
+            <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
+            <itunes:duration></itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_010_ballada.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_010_ballada.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_010_ballada.mp3" type="audio/mpeg"/>
+        </item>
+
+        <!-- https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_011_piesn-v.mp3 -->
+
+        <item>
+            <title>11. Adam Mickiewicz, Konrad Wallenrod, Pieśń V</title>
+            <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
+            <itunes:duration></itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_011_piesn-v.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_011_piesn-v.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_011_piesn-v.mp3" type="audio/mpeg"/>
+        </item>
+
+        <!-- https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_012_piesn-vi.mp3 -->
+
+        <item>
+            <title>12. Adam Mickiewicz, Konrad Wallenrod, Pieśń VI</title>
+            <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
+            <itunes:duration></itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_012_piesn-vi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_012_piesn-vi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_012_piesn-vi.mp3" type="audio/mpeg"/>
+        </item>
         
         <item>
             <title>13. Adam Mickiewicz, Konrad Wallenrod, Przedmowa do wydania źródłowego z 1861 r.</title>
