@@ -9,7 +9,7 @@
         <description>Audiobook of Adam Mickiewicz's "Konrad Wallenrod," read by Joanna Niemirska and Robert Koszucki.</description>
         <itunes:image href="https://wolnelektury.pl/media/book/cover/konrad-wallenrod.jpg" />
         <itunes:category text="Arts">
-            <itunes:category text="Literature" />
+            <itunes:category text="Books"/>
         </itunes:category>
         
         <item>
