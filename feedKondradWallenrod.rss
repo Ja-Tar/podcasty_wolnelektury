@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title>Adam Mickiewicz - Konrad Wallenrod</title>
+        <link>https://wolnelektury.pl</link>
+        <language>pl</language>
+        <itunes:author>Rafał Poławski ArtRepublica</itunes:author>
+        <itunes:summary>Audiobook of Adam Mickiewicz's "Konrad Wallenrod," read by Joanna Niemirska and Robert Koszucki.</itunes:summary>
+        <description>Audiobook of Adam Mickiewicz's "Konrad Wallenrod," read by Joanna Niemirska and Robert Koszucki.</description>
+        <itunes:image href="https://wolnelektury.pl/media/book/cover/konrad-wallenrod.jpg" />
+        <itunes:category text="Arts">
+            <itunes:category text="Literature" />
+        </itunes:category>
+        
+        <item>
+            <title>01. Adam Mickiewicz, Konrad Wallenrod, Wstęp</title>
+            <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
+            <itunes:duration></itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_001_wstep.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_001_wstep.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_001_wstep.mp3" type="audio/mpeg"/>
+        </item>
+
+        <item>
+            <title>02. Adam Mickiewicz, Konrad Wallenrod, Pieśń I. Obiór</title>
+            <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
+            <itunes:duration></itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_002_piesn-i-obior.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_002_piesn-i-obior.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_002_piesn-i-obior.mp3" type="audio/mpeg"/>
+        </item>
+
+        <item>
+            <title>03. Adam Mickiewicz, Konrad Wallenrod, Pieśń II</title>
+            <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
+            <itunes:duration></itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_003_piesn-ii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_003_piesn-ii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_003_piesn-ii.mp3" type="audio/mpeg"/>
+        </item>
+
+        <item>
+            <title>04. Adam Mickiewicz, Konrad Wallenrod, Pieśń</title>
+            <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
+            <itunes:duration></itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_004_piesn.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_004_piesn.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_004_piesn.mp3" type="audio/mpeg"/>
+        </item>
+
+        <!-- Continue this pattern for each episode -->
+        
+        <item>
+            <title>13. Adam Mickiewicz, Konrad Wallenrod, Przedmowa do wydania źródłowego z 1861 r.</title>
+            <itunes:author>Joanna Niemirska, Robert Koszucki</itunes:author>
+            <itunes:duration></itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_013_przedmowa-do-wydania-zrodlowego-z-1861-r.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_013_przedmowa-do-wydania-zrodlowego-z-1861-r.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/konrad-wallenrod_013_przedmowa-do-wydania-zrodlowego-z-1861-r.mp3" type="audio/mpeg"/>
+        </item>
+    </channel>
+</rss>
