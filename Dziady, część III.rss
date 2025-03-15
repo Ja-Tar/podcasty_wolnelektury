@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title>Dziady, część III</title>
+        <link>https://wolnelektury.pl</link>
+        <language>pl</language>
+        <itunes:author>Adam Mickiewicz</itunes:author>
+        <itunes:summary>Epoka: Romantyzm 
+Rodzaj: Dramat 
+Gatunek: Dramat romantyczny</itunes:summary>
+        <description>Epoka: Romantyzm 
+Rodzaj: Dramat 
+Gatunek: Dramat romantyczny</description>
+        <itunes:image href="/media/book/cover_clean/dziady-dziady-poema-dziady-czesc-iii_rSHPOVu.jpg" />
+        <itunes:category text="Arts">
+            <itunes:category text="Books"/>
+        </itunes:category>
+        <itunes:type>serial</itunes:type>
+    
+        <item>
+            <title>[Przedmowa]</title>
+            <itunes:episode>1</itunes:episode>
+            <itunes:author>Adam Mickiewicz</itunes:author>
+            <itunes:duration>469.707755102041</itunes:duration>
+            <link>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_001_przedmowa.mp3</link>
+            <guid>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_001_przedmowa.mp3</guid>
+            <enclosure url="/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_001_przedmowa.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <title>Litwa. Prolog</title>
+            <itunes:episode>2</itunes:episode>
+            <itunes:author>Adam Mickiewicz</itunes:author>
+            <itunes:duration>739.735510204082</itunes:duration>
+            <link>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_002_litwa-prolog.mp3</link>
+            <guid>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_002_litwa-prolog.mp3</guid>
+            <enclosure url="/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_002_litwa-prolog.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <title>Akt I, Scena I</title>
+            <itunes:episode>3</itunes:episode>
+            <itunes:author>Adam Mickiewicz</itunes:author>
+            <itunes:duration>2439.91510204082</itunes:duration>
+            <link>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_003_akt-i-scena-i.mp3</link>
+            <guid>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_003_akt-i-scena-i.mp3</guid>
+            <enclosure url="/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_003_akt-i-scena-i.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <title>Akt I, Scena II</title>
+            <itunes:episode>4</itunes:episode>
+            <itunes:author>Adam Mickiewicz</itunes:author>
+            <itunes:duration>1274.14857142857</itunes:duration>
+            <link>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_004_akt-i-scena-ii.mp3</link>
+            <guid>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_004_akt-i-scena-ii.mp3</guid>
+            <enclosure url="/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_004_akt-i-scena-ii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <title>Akt I, Scena III</title>
+            <itunes:episode>5</itunes:episode>
+            <itunes:author>Adam Mickiewicz</itunes:author>
+            <itunes:duration>1252.38857142857</itunes:duration>
+            <link>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_005_akt-i-scena-iii.mp3</link>
+            <guid>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_005_akt-i-scena-iii.mp3</guid>
+            <enclosure url="/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_005_akt-i-scena-iii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <title>Akt I, Scena IV</title>
+            <itunes:episode>6</itunes:episode>
+            <itunes:author>Adam Mickiewicz</itunes:author>
+            <itunes:duration>360.280816326531</itunes:duration>
+            <link>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_006_akt-i-scena-iv.mp3</link>
+            <guid>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_006_akt-i-scena-iv.mp3</guid>
+            <enclosure url="/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_006_akt-i-scena-iv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <title>Akt I, Scena V</title>
+            <itunes:episode>7</itunes:episode>
+            <itunes:author>Adam Mickiewicz</itunes:author>
+            <itunes:duration>522.161632653061</itunes:duration>
+            <link>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_007_akt-i-scena-v.mp3</link>
+            <guid>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_007_akt-i-scena-v.mp3</guid>
+            <enclosure url="/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_007_akt-i-scena-v.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <title>Akt I, Scena VI</title>
+            <itunes:episode>8</itunes:episode>
+            <itunes:author>Adam Mickiewicz</itunes:author>
+            <itunes:duration>484.048979591837</itunes:duration>
+            <link>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_008_akt-i-scena-vi.mp3</link>
+            <guid>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_008_akt-i-scena-vi.mp3</guid>
+            <enclosure url="/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_008_akt-i-scena-vi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <title>Akt I, Scena VII</title>
+            <itunes:episode>9</itunes:episode>
+            <itunes:author>Adam Mickiewicz</itunes:author>
+            <itunes:duration>1138.20734693878</itunes:duration>
+            <link>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_009_akt-i-scena-vii.mp3</link>
+            <guid>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_009_akt-i-scena-vii.mp3</guid>
+            <enclosure url="/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_009_akt-i-scena-vii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <title>Akt I, Scena VIII</title>
+            <itunes:episode>10</itunes:episode>
+            <itunes:author>Adam Mickiewicz</itunes:author>
+            <itunes:duration>3349.05469387755</itunes:duration>
+            <link>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_010_akt-i-scena-viii.mp3</link>
+            <guid>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_010_akt-i-scena-viii.mp3</guid>
+            <enclosure url="/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_010_akt-i-scena-viii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <title>Akt I, Scena IX</title>
+            <itunes:episode>11</itunes:episode>
+            <itunes:author>Adam Mickiewicz</itunes:author>
+            <itunes:duration>614.974693877551</itunes:duration>
+            <link>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_011_akt-i-scena-ix.mp3</link>
+            <guid>/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_011_akt-i-scena-ix.mp3</guid>
+            <enclosure url="/media/book/mp3/dziady-dziady-poema-dziady-czesc-iii_011_akt-i-scena-ix.mp3" type="audio/mpeg"/>
+        </item>
+        
+    </channel>
+</rss>
+    
