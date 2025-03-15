@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
+main_url = "https://wolnelektury.pl"
+
 def fetch_html(url):
     response = requests.get(url)
     response.raise_for_status()
@@ -30,7 +32,7 @@ def create_rss_feed(title, author, summary, image_url, audio_links, episode_titl
         <itunes:author>{author}</itunes:author>
         <itunes:summary>{summary}</itunes:summary>
         <description>{summary}</description>
-        <itunes:image href="{image_url}" />
+        <itunes:image href="{main_url + image_url}" />
         <itunes:category text="Arts">
             <itunes:category text="Books"/>
         </itunes:category>
@@ -43,9 +45,9 @@ def create_rss_feed(title, author, summary, image_url, audio_links, episode_titl
             <itunes:episode>{i}</itunes:episode>
             <itunes:author>{author}</itunes:author>
             <itunes:duration>{episode_duration[i-1]}</itunes:duration>
-            <link>{link}</link>
-            <guid>{link}</guid>
-            <enclosure url="{link}" type="audio/mpeg"/>
+            <link>{main_url + link}</link>
+            <guid>{main_url + link}</guid>
+            <enclosure url="{main_url + link}" type="audio/mpeg"/>
         </item>
         '''
     rss_feed += '''
@@ -55,12 +57,16 @@ def create_rss_feed(title, author, summary, image_url, audio_links, episode_titl
     with open(output_file, 'w', encoding='utf-8') as file:
         file.write(rss_feed)
 
+def format_title(title):
+    title = ''.join(e for e in title if e.isalnum() or e.isspace())
+    return title.replace(' ', '_').lower() + '.rss'
+
 def main():
     #url = input("Enter the URL of the book page: ")
     url = "https://wolnelektury.pl/katalog/lektura/dziady-dziady-poema-dziady-czesc-iii/"
     html_content = fetch_html(url)
     title, author, summary, image_url, audio_links, episode_titles, episode_duration = parse_html(html_content)
-    output_file = f"{title}.rss"
+    output_file = format_title(title)
     create_rss_feed(title, author, summary, image_url, audio_links, episode_titles, episode_duration, output_file)
     print(f"RSS feed created: {output_file}")
 
