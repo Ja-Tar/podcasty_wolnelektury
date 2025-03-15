@@ -14,7 +14,6 @@ def parse_html(html_content):
     title = soup.find('h1').text
     author = soup.find('div', {'class': 'l-header__content'}).find('a').text
     summary = soup.find('ul', {'class': 'l-aside__info'}).text.strip()
-    print(summary)
     image_url = soup.find('figure', {'class': 'only-l'}).find('img')['src']
     player_element = soup.find('div', {'class': 'c-player__chapters'}) 
     audio_links = [li['data-mp3'] for li in player_element.find_all('li')]
@@ -32,16 +31,17 @@ def create_rss_feed(title, author, summary, image_url, audio_links, episode_titl
         <itunes:author>{author}</itunes:author>
         <itunes:summary>{summary}</itunes:summary>
         <description>{summary}</description>
-        <itunes:image href="{main_url + image_url}" />
+        <itunes:image href="{main_url + image_url}"/>
         <itunes:category text="Arts">
             <itunes:category text="Books"/>
         </itunes:category>
         <itunes:type>serial</itunes:type>
+        <itunes:complete>Yes</itunes:complete>
     '''
     for i, link in enumerate(audio_links, start=1):
         rss_feed += f'''
         <item>
-            <title>{episode_titles[i-1].strip()}</title>
+            <title>{title + " - " + episode_titles[i-1].strip()}</title>
             <itunes:episode>{i}</itunes:episode>
             <itunes:author>{author}</itunes:author>
             <itunes:duration>{episode_duration[i-1]}</itunes:duration>
