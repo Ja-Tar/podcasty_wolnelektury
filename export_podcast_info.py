@@ -44,7 +44,7 @@ def create_rss_feed(title, author, summary, image_url, audio_links, episode_titl
         rss_feed += f'''
         <item>
             <pubDate>{date}</pubDate>
-            <title>{title + " - " + episode_titles[i-1].strip()}</title>
+            <title>{episode_titles[i-1].strip()}</title>
             <itunes:episode>{i}</itunes:episode>
             <itunes:author>{author}</itunes:author>
             <itunes:duration>{episode_duration[i-1]}</itunes:duration>
