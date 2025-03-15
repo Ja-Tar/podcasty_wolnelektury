@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import datetime
 import os
 
 main_url = "https://wolnelektury.pl"
@@ -38,9 +39,11 @@ def create_rss_feed(title, author, summary, image_url, audio_links, episode_titl
         <itunes:type>serial</itunes:type>
         <itunes:complete>Yes</itunes:complete>
     '''
+    date = datetime.datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
     for i, link in enumerate(audio_links, start=1):
         rss_feed += f'''
         <item>
+            <pubDate>{date}</pubDate>
             <title>{title + " - " + episode_titles[i-1].strip()}</title>
             <itunes:episode>{i}</itunes:episode>
             <itunes:author>{author}</itunes:author>
