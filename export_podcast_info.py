@@ -1,6 +1,8 @@
 import datetime
 import requests
 from bs4 import BeautifulSoup, Tag
+import sys
+import os
 
 main_url = "https://wolnelektury.pl"
 
@@ -91,8 +93,20 @@ def format_title(title):
 
 
 def main():
-    url = input("Enter the URL of the book page: ")
-    # url = "https://wolnelektury.pl/katalog/lektura/dziady-dziady-poema-dziady-czesc-iii/"
+    # Najpierw sprawdź argument przekazany w CLI, potem zmienną środowiskową PODCAST_URL, a jako fallback - prompt.
+    url = None
+    if len(sys.argv) > 1 and sys.argv[1].strip():
+        url = sys.argv[1].strip()
+    else:
+        url = os.environ.get("PODCAST_URL")
+
+    if not url:
+        try:
+            url = input("Enter the URL of the book page: ")
+        except EOFError:
+            print("No URL provided. Exiting.")
+            return
+
     html_content = fetch_html(url)
     title, author, summary, image_url, audio_links, episode_titles, episode_duration = (
         parse_html(html_content)
