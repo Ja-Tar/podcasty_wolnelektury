@@ -19,8 +19,9 @@ Gatunek: Powieść</description>
         <itunes:complete>Yes</itunes:complete>
     
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział I</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>1</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>658.0</itunes:duration>
@@ -30,8 +31,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział II</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>2</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>1191.0</itunes:duration>
@@ -41,8 +43,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział III</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>3</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>1923.0</itunes:duration>
@@ -52,8 +55,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział IV</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>4</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>1407.0</itunes:duration>
@@ -63,8 +67,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział V</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>5</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>2122.0</itunes:duration>
@@ -74,8 +79,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział VI</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>6</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>2709.0</itunes:duration>
@@ -85,8 +91,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział VII</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>7</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>1201.0</itunes:duration>
@@ -96,8 +103,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział VIII</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>8</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>3171.0</itunes:duration>
@@ -107,8 +115,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział IX</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>9</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>4242.0</itunes:duration>
@@ -118,8 +127,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział X</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>10</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>6163.0</itunes:duration>
@@ -129,8 +139,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział XI</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>11</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>3989.0</itunes:duration>
@@ -140,8 +151,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział XII</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>12</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>2985.0</itunes:duration>
@@ -151,8 +163,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział XIII</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>13</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>3418.0</itunes:duration>
@@ -162,8 +175,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział XIV</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>14</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>2343.0</itunes:duration>
@@ -173,8 +187,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział XV</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>15</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>1135.0</itunes:duration>
@@ -184,8 +199,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział XVI</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>16</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>1498.0</itunes:duration>
@@ -195,8 +211,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział XVII</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>17</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>2615.0</itunes:duration>
@@ -206,8 +223,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział XVIII</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>18</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>4437.0</itunes:duration>
@@ -217,8 +235,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział XIX</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>19</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>4233.0</itunes:duration>
@@ -228,8 +247,9 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom I, Rozdział XX</title>
+            <itunes:season>1</itunes:season>
             <itunes:episode>20</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>3861.0</itunes:duration>
@@ -239,9 +259,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział I</title>
-            <itunes:episode>21</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>1</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>3512.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_001_tom-ii-rozdzial-i.mp3</link>
@@ -250,9 +271,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział II</title>
-            <itunes:episode>22</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>2</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>4495.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_002_tom-ii-rozdzial-ii.mp3</link>
@@ -261,9 +283,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział III</title>
-            <itunes:episode>23</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>3</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>4053.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_003_tom-ii-rozdzial-iii.mp3</link>
@@ -272,9 +295,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział IV</title>
-            <itunes:episode>24</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>4</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>1531.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_004_tom-ii-rozdzial-iv.mp3</link>
@@ -283,9 +307,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział V</title>
-            <itunes:episode>25</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>5</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>3380.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_005_tom-ii-rozdzial-v.mp3</link>
@@ -294,9 +319,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział VI</title>
-            <itunes:episode>26</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>6</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>2844.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_006_tom-ii-rozdzial-vi.mp3</link>
@@ -305,9 +331,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział VII</title>
-            <itunes:episode>27</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>7</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>4102.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_007_tom-ii-rozdzial-vii.mp3</link>
@@ -316,9 +343,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział VIII</title>
-            <itunes:episode>28</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>8</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>2431.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_008_tom-ii-rozdzial-viii.mp3</link>
@@ -327,9 +355,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział IX</title>
-            <itunes:episode>29</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>9</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>4237.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_009_tom-ii-rozdzial-ix.mp3</link>
@@ -338,9 +367,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział X</title>
-            <itunes:episode>30</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>10</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>3157.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_010_tom-ii-rozdzial-x.mp3</link>
@@ -349,9 +379,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział XI</title>
-            <itunes:episode>31</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>11</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>2465.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_011_tom-ii-rozdzial-xi.mp3</link>
@@ -360,9 +391,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział XII</title>
-            <itunes:episode>32</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>12</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>3775.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_012_tom-ii-rozdzial-xii.mp3</link>
@@ -371,9 +403,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział XIII</title>
-            <itunes:episode>33</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>13</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>1550.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_013_tom-ii-rozdzial-xiii.mp3</link>
@@ -382,9 +415,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział XIV</title>
-            <itunes:episode>34</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>14</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>2337.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_014_tom-ii-rozdzial-xiv.mp3</link>
@@ -393,9 +427,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział XV</title>
-            <itunes:episode>35</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>15</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>1761.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_015_tom-ii-rozdzial-xv.mp3</link>
@@ -404,9 +439,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział XVI</title>
-            <itunes:episode>36</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>16</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>9487.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_016_tom-ii-rozdzial-xvi.mp3</link>
@@ -415,9 +451,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział XVII</title>
-            <itunes:episode>37</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>17</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>493.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_017_tom-ii-rozdzial-xvii.mp3</link>
@@ -426,9 +463,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Rozdział XVIII</title>
-            <itunes:episode>38</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>18</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>4003.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_018_tom-ii-rozdzial-xviii.mp3</link>
@@ -437,9 +475,10 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Sat, 22 Nov 2025 14:33:18 +0000</pubDate>
+            <pubDate>Sat, 22 Nov 2025 15:56:52 +0000</pubDate>
             <title>Tom II, Uzupełnienie</title>
-            <itunes:episode>39</itunes:episode>
+            <itunes:season>2</itunes:season>
+            <itunes:episode>19</itunes:episode>
             <itunes:author>Bolesław Prus</itunes:author>
             <itunes:duration>520.0</itunes:duration>
             <link>https://wolnelektury.pl/media/book/mp3/lalka-tom-drugi_019_tom-ii-uzupelnienie.mp3</link>
