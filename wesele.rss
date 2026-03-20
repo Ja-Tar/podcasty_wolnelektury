@@ -1,0 +1,1200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title>Wesele</title>
+        <link>https://wolnelektury.pl</link>
+        <language>pl</language>
+        <itunes:author>Stanisław Wyspiański</itunes:author>
+        <itunes:summary>Epoka: Modernizm 
+Rodzaj: Dramat 
+Gatunek: Dramat poetycki</itunes:summary>
+        <description>Epoka: Modernizm 
+Rodzaj: Dramat 
+Gatunek: Dramat poetycki</description>
+        <itunes:image href="https://wolnelektury.pl/media/book/cover_clean/wesele_9Go6U9G.jpg"/>
+        <itunes:category text="Arts">
+            <itunes:category text="Books"/>
+        </itunes:category>
+        <itunes:type>serial</itunes:type>
+        <itunes:complete>Yes</itunes:complete>
+    
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Stopka</title>
+            <itunes:episode>1</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>42.7102040816327</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_001_stopka.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_001_stopka.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_001_stopka.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Osoby</title>
+            <itunes:episode>2</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>302.08</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_002_osoby.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_002_osoby.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_002_osoby.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena I</title>
+            <itunes:episode>3</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>118.961632653061</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_003_akt-i-scena-i.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_003_akt-i-scena-i.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_003_akt-i-scena-i.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena II</title>
+            <itunes:episode>4</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>89.8873469387755</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_004_akt-i-scena-ii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_004_akt-i-scena-ii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_004_akt-i-scena-ii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena III</title>
+            <itunes:episode>5</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>84.9502040816326</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_005_akt-i-scena-iii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_005_akt-i-scena-iii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_005_akt-i-scena-iii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena IV</title>
+            <itunes:episode>6</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>84.0620408163265</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_006_akt-i-scena-iv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_006_akt-i-scena-iv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_006_akt-i-scena-iv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena V</title>
+            <itunes:episode>7</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>52.6367346938775</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_007_akt-i-scena-v.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_007_akt-i-scena-v.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_007_akt-i-scena-v.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena VII</title>
+            <itunes:episode>8</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>40.9338775510204</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_008_akt-i-scena-vii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_008_akt-i-scena-vii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_008_akt-i-scena-vii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena VI</title>
+            <itunes:episode>9</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>29.1265306122449</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_008_akt-i-scena-vi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_008_akt-i-scena-vi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_008_akt-i-scena-vi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena VIII</title>
+            <itunes:episode>10</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>95.1640816326531</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_009_akt-i-scena-viii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_009_akt-i-scena-viii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_009_akt-i-scena-viii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena IX</title>
+            <itunes:episode>11</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>112.61387755102</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_011_akt-i-scena-ix.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_011_akt-i-scena-ix.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_011_akt-i-scena-ix.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena X</title>
+            <itunes:episode>12</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>217.469387755102</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_012_akt-i-scena-x.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_012_akt-i-scena-x.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_012_akt-i-scena-x.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XI</title>
+            <itunes:episode>13</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>90.7232653061224</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_013_akt-i-scena-xi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_013_akt-i-scena-xi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_013_akt-i-scena-xi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XII</title>
+            <itunes:episode>14</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>73.5869387755102</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_014_akt-i-scena-xii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_014_akt-i-scena-xii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_014_akt-i-scena-xii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XIII</title>
+            <itunes:episode>15</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>52.2187755102041</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_014_akt-i-scena-xiii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_014_akt-i-scena-xiii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_014_akt-i-scena-xiii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XIV</title>
+            <itunes:episode>16</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>47.2816326530612</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_016_akt-i-scena-xiv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_016_akt-i-scena-xiv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_016_akt-i-scena-xiv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XV</title>
+            <itunes:episode>17</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>144.352653061224</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_017_akt-i-scena-xv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_017_akt-i-scena-xv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_017_akt-i-scena-xv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XVI</title>
+            <itunes:episode>18</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>154.644897959184</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_018_akt-i-scena-xvi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_018_akt-i-scena-xvi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_018_akt-i-scena-xvi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XVII</title>
+            <itunes:episode>19</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>221.048163265306</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_019_akt-i-scena-xvii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_019_akt-i-scena-xvii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_019_akt-i-scena-xvii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XVIII</title>
+            <itunes:episode>20</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>81.1624489795918</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_020_akt-i-scena-xviii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_020_akt-i-scena-xviii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_020_akt-i-scena-xviii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XX</title>
+            <itunes:episode>21</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>32.6269387755102</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_021_akt-i-scena-xx.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_021_akt-i-scena-xx.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_021_akt-i-scena-xx.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XIX</title>
+            <itunes:episode>22</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>130.873469387755</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_022_akt-i-scena-xix.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_022_akt-i-scena-xix.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_022_akt-i-scena-xix.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XXI</title>
+            <itunes:episode>23</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>152.94693877551</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_023_akt-i-scena-xxi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_023_akt-i-scena-xxi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_023_akt-i-scena-xxi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XXII</title>
+            <itunes:episode>24</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>132.257959183673</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_024_akt-i-scena-xxii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_024_akt-i-scena-xxii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_024_akt-i-scena-xxii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, scena XXIII</title>
+            <itunes:episode>25</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>131.21306122449</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_025_akt-i-scena-xxiii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_025_akt-i-scena-xxiii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_025_akt-i-scena-xxiii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XXIV</title>
+            <itunes:episode>26</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>345.547755102041</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_026_akt-i-scena-xxiv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_026_akt-i-scena-xxiv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_026_akt-i-scena-xxiv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XXV</title>
+            <itunes:episode>27</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>405.551020408163</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_027_akt-i-scena-xxv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_027_akt-i-scena-xxv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_027_akt-i-scena-xxv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XXVI</title>
+            <itunes:episode>28</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>137.116734693878</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_028_akt-i-scena-xxvi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_028_akt-i-scena-xxvi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_028_akt-i-scena-xxvi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XXVII</title>
+            <itunes:episode>29</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>66.1681632653061</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_029_akt-i-scena-xxvii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_029_akt-i-scena-xxvii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_029_akt-i-scena-xxvii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XXVIII</title>
+            <itunes:episode>30</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>103.418775510204</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_030_akt-i-scena-xxviii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_030_akt-i-scena-xxviii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_030_akt-i-scena-xxviii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XXIX</title>
+            <itunes:episode>31</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>161.724081632653</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_031_akt-i-scena-xxix.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_031_akt-i-scena-xxix.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_031_akt-i-scena-xxix.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XXX</title>
+            <itunes:episode>32</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>152.398367346939</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_032_akt-i-scena-xxx.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_032_akt-i-scena-xxx.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_032_akt-i-scena-xxx.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XXXI</title>
+            <itunes:episode>33</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>39.9412244897959</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_033_akt-i-scena-xxxi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_033_akt-i-scena-xxxi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_033_akt-i-scena-xxxi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XXXII</title>
+            <itunes:episode>34</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>26.0963265306122</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_034_akt-i-scena-xxxii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_034_akt-i-scena-xxxii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_034_akt-i-scena-xxxii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XXXIII</title>
+            <itunes:episode>35</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>66.7951020408163</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_035_akt-i-scena-xxxiii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_035_akt-i-scena-xxxiii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_035_akt-i-scena-xxxiii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XXXIV</title>
+            <itunes:episode>36</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>49.0057142857143</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_036_akt-i-scena-xxxiv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_036_akt-i-scena-xxxiv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_036_akt-i-scena-xxxiv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XXXV</title>
+            <itunes:episode>37</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>58.2791836734694</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_037_akt-i-scena-xxxv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_037_akt-i-scena-xxxv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_037_akt-i-scena-xxxv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XXXVI</title>
+            <itunes:episode>38</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>331.781224489796</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_038_akt-i-scena-xxxvi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_038_akt-i-scena-xxxvi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_038_akt-i-scena-xxxvi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XXXVII</title>
+            <itunes:episode>39</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>85.9689795918367</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_039_akt-i-scena-xxxvii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_039_akt-i-scena-xxxvii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_039_akt-i-scena-xxxvii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt I, Scena XXXVIII</title>
+            <itunes:episode>40</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>97.0448979591837</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_040_akt-i-scena-xxxviii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_040_akt-i-scena-xxxviii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_040_akt-i-scena-xxxviii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena I</title>
+            <itunes:episode>41</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>74.814693877551</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_041_akt-ii-scena-i.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_041_akt-ii-scena-i.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_041_akt-ii-scena-i.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena II</title>
+            <itunes:episode>42</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>35.6048979591837</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_042_akt-ii-scena-ii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_042_akt-ii-scena-ii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_042_akt-ii-scena-ii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena III</title>
+            <itunes:episode>43</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>111.046530612245</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_043_akt-ii-scena-iii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_043_akt-ii-scena-iii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_043_akt-ii-scena-iii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena IV</title>
+            <itunes:episode>44</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>105.795918367347</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_044_akt-ii-scena-iv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_044_akt-ii-scena-iv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_044_akt-ii-scena-iv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena V</title>
+            <itunes:episode>45</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>225.25387755102</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_045_akt-ii-scena-v.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_045_akt-ii-scena-v.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_045_akt-ii-scena-v.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena VI</title>
+            <itunes:episode>46</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>48.0914285714286</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_046_akt-ii-scena-vi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_046_akt-ii-scena-vi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_046_akt-ii-scena-vi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena VII</title>
+            <itunes:episode>47</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>935.758367346939</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_047_akt-ii-scena-vii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_047_akt-ii-scena-vii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_047_akt-ii-scena-vii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena VIII</title>
+            <itunes:episode>48</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>265.769795918367</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_048_akt-ii-scena-viii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_048_akt-ii-scena-viii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_048_akt-ii-scena-viii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena IX</title>
+            <itunes:episode>49</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>340.349387755102</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_049_akt-ii-scena-ix.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_049_akt-ii-scena-ix.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_049_akt-ii-scena-ix.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena X</title>
+            <itunes:episode>50</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>113.998367346939</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_050_akt-ii-scena-x.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_050_akt-ii-scena-x.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_050_akt-ii-scena-x.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XI</title>
+            <itunes:episode>51</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>89.7828571428571</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_051_akt-ii-scena-xi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_051_akt-ii-scena-xi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_051_akt-ii-scena-xi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XII</title>
+            <itunes:episode>52</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>147.748571428571</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_052_akt-ii-scena-xii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_052_akt-ii-scena-xii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_052_akt-ii-scena-xii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XIII</title>
+            <itunes:episode>53</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>86.7004081632653</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_053_akt-ii-scena-xiii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_053_akt-ii-scena-xiii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_053_akt-ii-scena-xiii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XIV</title>
+            <itunes:episode>54</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>29.7012244897959</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_054_akt-ii-scena-xiv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_054_akt-ii-scena-xiv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_054_akt-ii-scena-xiv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XV</title>
+            <itunes:episode>55</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>163.474285714286</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_055_akt-ii-scena-xv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_055_akt-ii-scena-xv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_055_akt-ii-scena-xv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XVI</title>
+            <itunes:episode>56</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>109.688163265306</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_056_akt-ii-scena-xvi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_056_akt-ii-scena-xvi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_056_akt-ii-scena-xvi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XVII</title>
+            <itunes:episode>57</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>57.1297959183673</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_057_akt-ii-scena-xvii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_057_akt-ii-scena-xvii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_057_akt-ii-scena-xvii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XVIII</title>
+            <itunes:episode>58</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>74.0048979591837</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_058_akt-ii-scena-xviii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_058_akt-ii-scena-xviii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_058_akt-ii-scena-xviii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XIX</title>
+            <itunes:episode>59</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>113.475918367347</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_059_akt-ii-scena-xix.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_059_akt-ii-scena-xix.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_059_akt-ii-scena-xix.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XX</title>
+            <itunes:episode>60</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>118.38693877551</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_060_akt-ii-scena-xx.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_060_akt-ii-scena-xx.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_060_akt-ii-scena-xx.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XXI</title>
+            <itunes:episode>61</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>162.246530612245</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_061_akt-ii-scena-xxi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_061_akt-ii-scena-xxi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_061_akt-ii-scena-xxi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XXII</title>
+            <itunes:episode>62</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>61.0220408163265</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_062_akt-ii-scena-xxii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_062_akt-ii-scena-xxii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_062_akt-ii-scena-xxii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XXIII</title>
+            <itunes:episode>63</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>47.0987755102041</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_063_akt-ii-scena-xxiii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_063_akt-ii-scena-xxiii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_063_akt-ii-scena-xxiii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XXIV</title>
+            <itunes:episode>64</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>692.323265306122</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_064_akt-ii-scena-xxiv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_064_akt-ii-scena-xxiv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_064_akt-ii-scena-xxiv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XXV</title>
+            <itunes:episode>65</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>118.282448979592</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_065_akt-ii-scena-xxv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_065_akt-ii-scena-xxv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_065_akt-ii-scena-xxv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XXVI</title>
+            <itunes:episode>66</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>174.419591836735</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_066_akt-ii-scena-xxvi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_066_akt-ii-scena-xxvi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_066_akt-ii-scena-xxvi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XXVII</title>
+            <itunes:episode>67</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>143.673469387755</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_067_akt-ii-scena-xxvii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_067_akt-ii-scena-xxvii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_067_akt-ii-scena-xxvii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XXVIII</title>
+            <itunes:episode>68</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>36.8587755102041</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_068_akt-ii-scena-xxviii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_068_akt-ii-scena-xxviii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_068_akt-ii-scena-xxviii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XXIX</title>
+            <itunes:episode>69</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>151.980408163265</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_069_akt-ii-scena-xxix.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_069_akt-ii-scena-xxix.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_069_akt-ii-scena-xxix.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt II, Scena XXX</title>
+            <itunes:episode>70</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>75.52</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_070_akt-ii-scena-xxx.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_070_akt-ii-scena-xxx.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_070_akt-ii-scena-xxx.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena I</title>
+            <itunes:episode>71</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>25.2604081632653</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_071_akt-iii-scena-i.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_071_akt-iii-scena-i.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_071_akt-iii-scena-i.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena II</title>
+            <itunes:episode>72</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>543.582040816327</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_072_akt-iii-scena-ii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_072_akt-iii-scena-ii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_072_akt-iii-scena-ii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena III</title>
+            <itunes:episode>73</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>56.5289795918367</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_073_akt-iii-scena-iii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_073_akt-iii-scena-iii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_073_akt-iii-scena-iii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena IV</title>
+            <itunes:episode>74</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>37.4857142857143</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_074_akt-iii-scena-iv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_074_akt-iii-scena-iv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_074_akt-iii-scena-iv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena V</title>
+            <itunes:episode>75</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>55.3534693877551</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_075_akt-iii-scena-v.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_075_akt-iii-scena-v.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_075_akt-iii-scena-v.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena VI</title>
+            <itunes:episode>76</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>119.614693877551</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_076_akt-iii-scena-vi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_076_akt-iii-scena-vi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_076_akt-iii-scena-vi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena VII</title>
+            <itunes:episode>77</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>53.629387755102</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_077_akt-iii-scena-vii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_077_akt-iii-scena-vii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_077_akt-iii-scena-vii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena VIII</title>
+            <itunes:episode>78</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>321.28</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_078_akt-iii-scena-viii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_078_akt-iii-scena-viii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_078_akt-iii-scena-viii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena IX</title>
+            <itunes:episode>79</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>150.778775510204</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_079_akt-iii-scena-ix.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_079_akt-iii-scena-ix.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_079_akt-iii-scena-ix.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena X</title>
+            <itunes:episode>80</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>39.9151020408163</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_080_akt-iii-scena-x.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_080_akt-iii-scena-x.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_080_akt-iii-scena-x.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XI</title>
+            <itunes:episode>81</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>50.5208163265306</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_081_akt-iii-scena-xi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_081_akt-iii-scena-xi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_081_akt-iii-scena-xi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XII</title>
+            <itunes:episode>82</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>89.1297959183673</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_082_akt-iii-scena-xii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_082_akt-iii-scena-xii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_082_akt-iii-scena-xii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XIII</title>
+            <itunes:episode>83</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>55.04</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_083_akt-iii-scena-xiii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_083_akt-iii-scena-xiii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_083_akt-iii-scena-xiii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XIV</title>
+            <itunes:episode>84</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>96.6791836734694</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_084_akt-iii-scena-xiv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_084_akt-iii-scena-xiv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_084_akt-iii-scena-xiv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XV</title>
+            <itunes:episode>85</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>128.548571428571</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_085_akt-iii-scena-xv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_085_akt-iii-scena-xv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_085_akt-iii-scena-xv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XVI</title>
+            <itunes:episode>86</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>138.396734693878</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_086_akt-iii-scena-xvi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_086_akt-iii-scena-xvi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_086_akt-iii-scena-xvi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XVII</title>
+            <itunes:episode>87</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>140.408163265306</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_087_akt-iii-scena-xvii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_087_akt-iii-scena-xvii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_087_akt-iii-scena-xvii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XVIII</title>
+            <itunes:episode>88</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>116.192653061224</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_088_akt-iii-scena-xviii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_088_akt-iii-scena-xviii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_088_akt-iii-scena-xviii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XIX</title>
+            <itunes:episode>89</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>367.516734693878</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_089_akt-iii-scena-xix.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_089_akt-iii-scena-xix.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_089_akt-iii-scena-xix.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XX</title>
+            <itunes:episode>90</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>29.9885714285714</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_090_akt-iii-scena-xx.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_090_akt-iii-scena-xx.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_090_akt-iii-scena-xx.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XXI</title>
+            <itunes:episode>91</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>36.1012244897959</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_091_akt-iii-scena-xxi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_091_akt-iii-scena-xxi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_091_akt-iii-scena-xxi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XXII</title>
+            <itunes:episode>92</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>45.0089795918367</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_092_akt-iii-scena-xxii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_092_akt-iii-scena-xxii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_092_akt-iii-scena-xxii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XXIII</title>
+            <itunes:episode>93</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>28.4212244897959</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_093_akt-iii-scena-xxiii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_093_akt-iii-scena-xxiii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_093_akt-iii-scena-xxiii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XXIV</title>
+            <itunes:episode>94</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>36.5714285714286</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_094_akt-iii-scena-xxiv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_094_akt-iii-scena-xxiv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_094_akt-iii-scena-xxiv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XXV</title>
+            <itunes:episode>95</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>50.4163265306122</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_095_akt-iii-scena-xxv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_095_akt-iii-scena-xxv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_095_akt-iii-scena-xxv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XXVI</title>
+            <itunes:episode>96</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>26.3314285714286</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_096_akt-iii-scena-xxvi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_096_akt-iii-scena-xxvi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_096_akt-iii-scena-xxvi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XXVII</title>
+            <itunes:episode>97</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>25.4171428571429</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_097_akt-iii-scena-xxvii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_097_akt-iii-scena-xxvii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_097_akt-iii-scena-xxvii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XXVIII</title>
+            <itunes:episode>98</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>25.4432653061224</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_098_akt-iii-scena-xxviii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_098_akt-iii-scena-xxviii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_098_akt-iii-scena-xxviii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XXIX</title>
+            <itunes:episode>99</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>16.9795918367347</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_099_akt-iii-scena-xxix.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_099_akt-iii-scena-xxix.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_099_akt-iii-scena-xxix.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XXX</title>
+            <itunes:episode>100</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>29.4922448979592</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_100_akt-iii-scena-xxx.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_100_akt-iii-scena-xxx.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_100_akt-iii-scena-xxx.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XXXI</title>
+            <itunes:episode>101</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>22.6481632653061</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_101_akt-iii-scena-xxxi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_101_akt-iii-scena-xxxi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_101_akt-iii-scena-xxxi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XXXII</title>
+            <itunes:episode>102</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>125.675102040816</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_102_akt-iii-scena-xxxii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_102_akt-iii-scena-xxxii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_102_akt-iii-scena-xxxii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XXXIII</title>
+            <itunes:episode>103</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>749.139591836735</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_103_akt-iii-scena-xxxiii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_103_akt-iii-scena-xxxiii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_103_akt-iii-scena-xxxiii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XXXIV</title>
+            <itunes:episode>104</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>67.5004081632653</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_104_akt-iii-scena-xxxiv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_104_akt-iii-scena-xxxiv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_104_akt-iii-scena-xxxiv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XXXV</title>
+            <itunes:episode>105</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>88.1371428571429</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_105_akt-iii-scena-xxxv.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_105_akt-iii-scena-xxxv.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_105_akt-iii-scena-xxxv.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XXXVI</title>
+            <itunes:episode>106</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>55.5363265306122</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_106_akt-iii-scena-xxxvi.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_106_akt-iii-scena-xxxvi.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_106_akt-iii-scena-xxxvi.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Fri, 20 Mar 2026 05:02:10 +0000</pubDate>
+            <title>Akt III, Scena XXXVII</title>
+            <itunes:episode>107</itunes:episode>
+            <itunes:author>Stanisław Wyspiański</itunes:author>
+            <itunes:duration>392.097959183673</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/wesele_107_akt-iii-scena-xxxvii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/wesele_107_akt-iii-scena-xxxvii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/wesele_107_akt-iii-scena-xxxvii.mp3" type="audio/mpeg"/>
+        </item>
+        
+    </channel>
+</rss>
+    
