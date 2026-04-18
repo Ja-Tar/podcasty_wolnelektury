@@ -134,14 +134,14 @@ def parse_number(value):
         return None
     if cleaned.isdigit():
         return int(cleaned)
-    if not re.fullmatch(r"[IVXLCDM]+", cleaned, re.IGNORECASE):
+    if not re.fullmatch(r"[IVXLCDM]+", cleaned.upper()):
         return None
     return roman_to_int(cleaned)
 
 
 def parse_episode_metadata_from_title(title):
     match = re.search(
-        r"\bTom\s+([IVXLCDM\d]+)\s*,\s*Rozdział\s+([IVXLCDM\d]+)\b",
+        r"\bTom\s+([IVXLCDM]+|\d+)\s*,\s*Rozdział\s+([IVXLCDM]+|\d+)\b",
         title,
         re.IGNORECASE,
     )
@@ -152,7 +152,9 @@ def parse_episode_metadata_from_title(title):
             return season, episode
 
     match = re.search(
-        r"\bAkt\s+([IVXLCDM\d]+)\s*,\s*Scena\s+([IVXLCDM\d]+)\b", title, re.IGNORECASE
+        r"\bAkt\s+([IVXLCDM]+|\d+)\s*,\s*Scena\s+([IVXLCDM]+|\d+)\b",
+        title,
+        re.IGNORECASE,
     )
     if not match:
         return None, None
