@@ -118,7 +118,7 @@ def roman_to_int(roman):
             total -= value
         else:
             total += value
-        prev = value
+            prev = value
     return total
 
 
