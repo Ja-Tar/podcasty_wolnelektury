@@ -24,11 +24,13 @@ def parse_html(html_content):
     image_element = only_l_elements.find("img") or Tag()
     image_url = image_element["src"]
     player_element = soup.find("div", {"class": "c-player__chapters"}) or Tag()
-    audio_links = [li["data-mp3"] for li in player_element.find_all("li")]
+    chapter_items = player_element.find_all("li")
+    audio_links = [li["data-mp3"] for li in chapter_items]
     episode_titles = [
-        span.text for span in player_element.find_all("span", {"class": "title"})
+        getattr(li.find("span", {"class": "title"}), "text", "") for li in chapter_items
     ]
-    episode_duration = [li["data-duration"] for li in player_element.find_all("li")]
+    episode_duration = [li["data-duration"] for li in chapter_items]
+    episode_metadata = [parse_episode_metadata_from_attrs(li) for li in chapter_items]
     return (
         title,
         author,
@@ -37,6 +39,7 @@ def parse_html(html_content):
         audio_links,
         episode_titles,
         episode_duration,
+        episode_metadata,
     )
 
 
@@ -48,6 +51,7 @@ def create_rss_feed(
     audio_links,
     episode_titles,
     episode_duration,
+    episode_metadata,
     output_file,
 ):
     rss_feed = f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -67,7 +71,9 @@ def create_rss_feed(
         <itunes:complete>Yes</itunes:complete>
     """
     date = datetime.datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
-    episode_records = order_episode_records(audio_links, episode_titles, episode_duration)
+    episode_records = order_episode_records(
+        audio_links, episode_titles, episode_duration, episode_metadata
+    )
     for i, record in enumerate(episode_records, start=1):
         episode_tag = record["episode"] if record["episode"] is not None else i
         season_tag = (
@@ -112,32 +118,85 @@ def roman_to_int(roman):
             total -= value
         else:
             total += value
-            prev = value
+        prev = value
     return total
 
 
-def parse_act_scene_title(title):
+def parse_number(value):
+    if value is None:
+        return None
+    cleaned = str(value).strip()
+    if not cleaned:
+        return None
+    if cleaned.isdigit():
+        return int(cleaned)
+    return roman_to_int(cleaned)
+
+
+def parse_episode_metadata_from_title(title):
     match = re.search(
-        r"\bAkt\s+([IVXLCDM]+)\s*,\s*Scena\s+([IVXLCDM]+)\b", title, re.IGNORECASE
+        r"\bTom\s+([IVXLCDM\d]+)\s*,\s*Rozdział\s+([IVXLCDM\d]+)\b",
+        title,
+        re.IGNORECASE,
+    )
+    if match:
+        season = parse_number(match.group(1))
+        episode = parse_number(match.group(2))
+        if season is not None and episode is not None:
+            return season, episode
+
+    match = re.search(
+        r"\bAkt\s+([IVXLCDM\d]+)\s*,\s*Scena\s+([IVXLCDM\d]+)\b", title, re.IGNORECASE
     )
     if not match:
         return None, None
-    season = roman_to_int(match.group(1))
-    episode = roman_to_int(match.group(2))
+    season = parse_number(match.group(1))
+    episode = parse_number(match.group(2))
     if season is None or episode is None:
         return None, None
     return season, episode
 
 
-def order_episode_records(audio_links, episode_titles, episode_duration):
+def parse_episode_metadata_from_attrs(item):
+    attrs = getattr(item, "attrs", {})
+    season_candidates = [
+        "data-season",
+        "data-part",
+        "data-volume",
+        "data-tom",
+        "data-book",
+    ]
+    episode_candidates = [
+        "data-episode",
+        "data-chapter",
+        "data-rozdzial",
+        "data-scena",
+        "data-track",
+    ]
+    season = None
+    episode = None
+    for key in season_candidates:
+        season = parse_number(attrs.get(key))
+        if season is not None:
+            break
+    for key in episode_candidates:
+        episode = parse_number(attrs.get(key))
+        if episode is not None:
+            break
+    return season, episode
+
+
+def order_episode_records(audio_links, episode_titles, episode_duration, episode_metadata):
     def is_act_scene_record(record):
         return record["season"] is not None and record["episode"] is not None
 
     records = []
-    for idx, (link, title, duration) in enumerate(
-        zip(audio_links, episode_titles, episode_duration)
+    for idx, (link, title, duration, metadata) in enumerate(
+        zip(audio_links, episode_titles, episode_duration, episode_metadata)
     ):
-        season, episode = parse_act_scene_title(title.strip())
+        season, episode = metadata
+        if season is None or episode is None:
+            season, episode = parse_episode_metadata_from_title(title.strip())
         records.append(
             {
                 "index": idx,
@@ -180,9 +239,16 @@ def main():
             return
 
     html_content = fetch_html(url)
-    title, author, summary, image_url, audio_links, episode_titles, episode_duration = (
-        parse_html(html_content)
-    )
+    (
+        title,
+        author,
+        summary,
+        image_url,
+        audio_links,
+        episode_titles,
+        episode_duration,
+        episode_metadata,
+    ) = parse_html(html_content)
     output_file = format_title(title)
     create_rss_feed(
         title,
@@ -192,6 +258,7 @@ def main():
         audio_links,
         episode_titles,
         episode_duration,
+        episode_metadata,
         output_file,
     )
     print(f"RSS feed created: {output_file}")
