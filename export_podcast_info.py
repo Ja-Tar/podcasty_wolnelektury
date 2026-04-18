@@ -130,6 +130,9 @@ def parse_act_scene_title(title):
 
 
 def order_episode_records(audio_links, episode_titles, episode_duration):
+    def is_act_scene_record(record):
+        return record["season"] is not None and record["episode"] is not None
+
     records = []
     for idx, (link, title, duration) in enumerate(
         zip(audio_links, episode_titles, episode_duration)
@@ -147,14 +150,14 @@ def order_episode_records(audio_links, episode_titles, episode_duration):
         )
 
     act_scene_sorted = sorted(
-        (r for r in records if r["season"] is not None and r["episode"] is not None),
+        (r for r in records if is_act_scene_record(r)),
         key=lambda r: (r["season"], r["episode"], r["index"]),
     )
     sorted_iter = iter(act_scene_sorted)
 
     ordered_records = []
     for record in records:
-        if record["season"] is not None and record["episode"] is not None:
+        if is_act_scene_record(record):
             ordered_records.append(next(sorted_iter))
         else:
             ordered_records.append(record)
