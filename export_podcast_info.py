@@ -26,9 +26,13 @@ def parse_html(html_content):
     player_element = soup.find("div", {"class": "c-player__chapters"}) or Tag()
     chapter_items = player_element.find_all("li")
     audio_links = [li["data-mp3"] for li in chapter_items]
-    episode_titles = [
-        getattr(li.find("span", {"class": "title"}), "text", "") for li in chapter_items
-    ]
+    title_spans = [span.text for span in player_element.find_all("span", {"class": "title"})]
+    if len(title_spans) == len(chapter_items):
+        episode_titles = title_spans
+    else:
+        episode_titles = [
+            getattr(li.find("span", {"class": "title"}), "text", "") for li in chapter_items
+        ]
     episode_duration = [li["data-duration"] for li in chapter_items]
     episode_metadata = [parse_episode_metadata_from_attrs(li) for li in chapter_items]
     return (
@@ -130,6 +134,8 @@ def parse_number(value):
         return None
     if cleaned.isdigit():
         return int(cleaned)
+    if not re.fullmatch(r"[IVXLCDM]+", cleaned, re.IGNORECASE):
+        return None
     return roman_to_int(cleaned)
 
 
