@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup, Tag
 import sys
 import os
+import re
 
 main_url = "https://wolnelektury.pl"
 
@@ -66,17 +67,24 @@ def create_rss_feed(
         <itunes:complete>Yes</itunes:complete>
     """
     date = datetime.datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
-    for i, link in enumerate(audio_links, start=1):
+    episode_records = order_episode_records(audio_links, episode_titles, episode_duration)
+    for i, record in enumerate(episode_records, start=1):
+        episode_tag = record["episode"] if record["episode"] is not None else i
+        season_tag = (
+            f"\n            <itunes:season>{record['season']}</itunes:season>"
+            if record["season"] is not None
+            else ""
+        )
         rss_feed += f"""
         <item>
             <pubDate>{date}</pubDate>
-            <title>{episode_titles[i-1].strip()}</title>
-            <itunes:episode>{i}</itunes:episode>
+            <title>{record["title"].strip()}</title>
+            <itunes:episode>{episode_tag}</itunes:episode>{season_tag}
             <itunes:author>{author}</itunes:author>
-            <itunes:duration>{episode_duration[i-1]}</itunes:duration>
-            <link>{main_url + link}</link>
-            <guid>{main_url + link}</guid>
-            <enclosure url="{main_url + link}" type="audio/mpeg"/>
+            <itunes:duration>{record["duration"]}</itunes:duration>
+            <link>{main_url + record["link"]}</link>
+            <guid>{main_url + record["link"]}</guid>
+            <enclosure url="{main_url + record["link"]}" type="audio/mpeg"/>
         </item>
         """
     rss_feed += """
@@ -90,6 +98,67 @@ def create_rss_feed(
 def format_title(title):
     title = "".join(e for e in title if e.isalnum() or e.isspace())
     return title.replace(" ", "_").lower() + ".rss"
+
+
+def roman_to_int(roman):
+    values = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
+    total = 0
+    prev = 0
+    for char in reversed(roman.upper()):
+        value = values.get(char)
+        if value is None:
+            return None
+        if value < prev:
+            total -= value
+        else:
+            total += value
+            prev = value
+    return total
+
+
+def parse_act_scene_title(title):
+    match = re.search(
+        r"\bAkt\s+([IVXLCDM]+)\s*,\s*Scena\s+([IVXLCDM]+)\b", title, re.IGNORECASE
+    )
+    if not match:
+        return None, None
+    season = roman_to_int(match.group(1))
+    episode = roman_to_int(match.group(2))
+    if season is None or episode is None:
+        return None, None
+    return season, episode
+
+
+def order_episode_records(audio_links, episode_titles, episode_duration):
+    records = []
+    for idx, (link, title, duration) in enumerate(
+        zip(audio_links, episode_titles, episode_duration)
+    ):
+        season, episode = parse_act_scene_title(title.strip())
+        records.append(
+            {
+                "index": idx,
+                "link": link,
+                "title": title,
+                "duration": duration,
+                "season": season,
+                "episode": episode,
+            }
+        )
+
+    act_scene_sorted = sorted(
+        (r for r in records if r["season"] is not None and r["episode"] is not None),
+        key=lambda r: (r["season"], r["episode"], r["index"]),
+    )
+    sorted_iter = iter(act_scene_sorted)
+
+    ordered_records = []
+    for record in records:
+        if record["season"] is not None and record["episode"] is not None:
+            ordered_records.append(next(sorted_iter))
+        else:
+            ordered_records.append(record)
+    return ordered_records
 
 
 def main():
