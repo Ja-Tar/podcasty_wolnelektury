@@ -1,33 +1,42 @@
 import datetime
+from re import RegexFlag
+
 import requests
 from bs4 import BeautifulSoup, Tag
 import sys
 import os
+import re
 
 main_url = "https://wolnelektury.pl"
 
 
-def fetch_html(url):
+def fetch_html(url: str):
     response = requests.get(url, timeout=10)
     response.raise_for_status()
     return response.text
 
 
-def parse_html(html_content):
+def parse_html(html_content: str):
     soup = BeautifulSoup(html_content, "html.parser")
-    title = getattr(soup.find("h1"), "text", "")
+    title: str = getattr(soup.find("h1"), "text", "")
     all_author_links = soup.find("div", {"class": "l-header__content"}) or Tag()
-    author = getattr(all_author_links.find("a"), "text", "")
-    summary = getattr(soup.find("ul", {"class": "l-aside__info"}), "text", "").strip()
+    author: str = getattr(all_author_links.find("a"), "text", "")
+    summary: str = getattr(soup.find("ul", {"class": "l-aside__info"}), "text", "").strip()
     only_l_elements = soup.find("figure", {"class": "only-l"}) or Tag()
     image_element = only_l_elements.find("img") or Tag()
     image_url = image_element["src"]
     player_element = soup.find("div", {"class": "c-player__chapters"}) or Tag()
-    audio_links = [li["data-mp3"] for li in player_element.find_all("li")]
-    episode_titles = [
-        span.text for span in player_element.find_all("span", {"class": "title"})
-    ]
-    episode_duration = [li["data-duration"] for li in player_element.find_all("li")]
+    chapter_items = player_element.find_all("li")
+    audio_links = [li["data-mp3"] for li in chapter_items]
+    title_spans = [span.text for span in player_element.find_all("span", {"class": "title"})]
+    if len(title_spans) == len(chapter_items):
+        episode_titles = title_spans
+    else:
+        episode_titles: list[str] = [
+            getattr(li.find("span", {"class": "title"}), "text", "") for li in chapter_items
+        ]
+    episode_duration = [li["data-duration"] for li in chapter_items]
+    episode_metadata = [parse_episode_metadata_from_attrs(li) for li in chapter_items]
     return (
         title,
         author,
@@ -36,6 +45,7 @@ def parse_html(html_content):
         audio_links,
         episode_titles,
         episode_duration,
+        episode_metadata,
     )
 
 
@@ -47,6 +57,7 @@ def create_rss_feed(
     audio_links,
     episode_titles,
     episode_duration,
+    episode_metadata,
     output_file,
 ):
     rss_feed = f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -66,17 +77,26 @@ def create_rss_feed(
         <itunes:complete>Yes</itunes:complete>
     """
     date = datetime.datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
-    for i, link in enumerate(audio_links, start=1):
+    episode_records = order_episode_records(
+        audio_links, episode_titles, episode_duration, episode_metadata
+    )
+    for i, record in enumerate(episode_records, start=1):
+        episode_tag = record["episode"] if record["episode"] is not None else i
+        season_tag = (
+            f"\n            <itunes:season>{record['season']}</itunes:season>"
+            if record["season"] is not None
+            else ""
+        )
         rss_feed += f"""
         <item>
             <pubDate>{date}</pubDate>
-            <title>{episode_titles[i-1].strip()}</title>
-            <itunes:episode>{i}</itunes:episode>
+            <title>{record["title"].strip()}</title>
+            <itunes:episode>{episode_tag}</itunes:episode>{season_tag}
             <itunes:author>{author}</itunes:author>
-            <itunes:duration>{episode_duration[i-1]}</itunes:duration>
-            <link>{main_url + link}</link>
-            <guid>{main_url + link}</guid>
-            <enclosure url="{main_url + link}" type="audio/mpeg"/>
+            <itunes:duration>{record["duration"]}</itunes:duration>
+            <link>{main_url + record["link"]}</link>
+            <guid>{main_url + record["link"]}</guid>
+            <enclosure url="{main_url + record["link"]}" type="audio/mpeg"/>
         </item>
         """
     rss_feed += """
@@ -92,8 +112,121 @@ def format_title(title):
     return title.replace(" ", "_").lower() + ".rss"
 
 
+def roman_to_int(roman):
+    values = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
+    total = 0
+    prev = 0
+    for char in reversed(roman.upper()):
+        value = values.get(char)
+        if value is None:
+            return None
+        if value < prev:
+            total -= value
+        else:
+            total += value
+            prev = value
+    return total
+
+
+def parse_number(value):
+    if value is None:
+        return None
+    cleaned = str(value).strip()
+    if not cleaned:
+        return None
+    if cleaned.isdigit():
+        return int(cleaned)
+    if not re.fullmatch(r"[IVXLCDM]+", cleaned.upper()):
+        return None
+    return roman_to_int(cleaned)
+
+
+def parse_episode_metadata_from_title(title: str):
+    season = None
+    episode = None
+
+    # language=RegExp
+    match: list[str] = re.findall(r"\s([IVXLCDM]+|\d+)(?: |,|\.|$)", title, RegexFlag.M | RegexFlag.S)
+    if len(match) == 2:
+        season = parse_number(match[0])
+        episode = parse_number(match[1])
+    return season, episode
+
+
+def parse_episode_metadata_from_attrs(item):
+    attrs = getattr(item, "attrs", {})
+    season_candidates = [
+        "data-season",
+        "data-part",
+        "data-volume",
+        "data-tom",
+        "data-book",
+    ]
+    episode_candidates = [
+        "data-episode",
+        "data-chapter",
+        "data-rozdzial",
+        "data-scena",
+        "data-track",
+    ]
+    season = None
+    episode = None
+    for key in season_candidates:
+        season = parse_number(attrs.get(key))
+        if season is not None:
+            break
+    for key in episode_candidates:
+        episode = parse_number(attrs.get(key))
+        if episode is not None:
+            break
+    return season, episode
+
+
+def order_episode_records(audio_links, episode_titles, episode_duration, episode_metadata):
+    def is_act_scene_record(record):
+        return record["season"] is not None and record["episode"] is not None
+
+    records = []
+    last_season = None
+    last_episode = None
+    for idx, (link, title, duration, metadata) in enumerate(
+        zip(audio_links, episode_titles, episode_duration, episode_metadata)
+    ):
+        season, episode = metadata
+        if season is None or episode is None:
+            season, episode = parse_episode_metadata_from_title(title.strip())
+            if season is not None and episode is not None:
+                if last_season is not None and last_episode is not None:
+                    if last_season > season:
+                        season = last_season
+                    if last_season == season and last_episode > episode:
+                        last_episode += 1
+                        episode = last_episode
+                last_season = season
+                last_episode = episode
+            elif last_season is not None and last_episode is not None:
+                # fallback
+                season = last_season
+                last_episode += 1
+                episode = last_episode
+
+
+        records.append(
+            {
+                "index": idx,
+                "link": link,
+                "title": title,
+                "duration": duration,
+                "season": season,
+                "episode": episode,
+            }
+        )
+
+    return records
+
+
 def main():
-    # Najpierw sprawdź argument przekazany w CLI, potem zmienną środowiskową PODCAST_URL, a jako fallback - prompt.
+    # Najpierw sprawdź, argument przekazany w CLI, a potem zmienną środowiskową PODCAST_URL, a jako fallback -> prompt.
     url = None
     if len(sys.argv) > 1 and sys.argv[1].strip():
         url = sys.argv[1].strip()
@@ -108,9 +241,16 @@ def main():
             return
 
     html_content = fetch_html(url)
-    title, author, summary, image_url, audio_links, episode_titles, episode_duration = (
-        parse_html(html_content)
-    )
+    (
+        title,
+        author,
+        summary,
+        image_url,
+        audio_links,
+        episode_titles,
+        episode_duration,
+        episode_metadata,
+    ) = parse_html(html_content)
     output_file = format_title(title)
     create_rss_feed(
         title,
@@ -120,6 +260,7 @@ def main():
         audio_links,
         episode_titles,
         episode_duration,
+        episode_metadata,
         output_file,
     )
     print(f"RSS feed created: {output_file}")
