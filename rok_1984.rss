@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title>Rok 1984</title>
+        <link>https://wolnelektury.pl</link>
+        <language>pl</language>
+        <itunes:author>George Orwell</itunes:author>
+        <itunes:summary>Epoka: Współczesność 
+Rodzaj: Epika 
+Gatunek: Powieść</itunes:summary>
+        <description>Epoka: Współczesność 
+Rodzaj: Epika 
+Gatunek: Powieść</description>
+        <itunes:image href="https://wolnelektury.pl/media/book/cover_clean/orwell-rok-1984_pBkU5mH.jpg"/>
+        <itunes:category text="Arts">
+            <itunes:category text="Books"/>
+        </itunes:category>
+        <itunes:type>serial</itunes:type>
+        <itunes:complete>Yes</itunes:complete>
+    
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część I. 1</title>
+            <itunes:episode>1</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>2452.7412244898</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_001_czesc-i-1.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_001_czesc-i-1.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_001_czesc-i-1.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część I. 2</title>
+            <itunes:episode>2</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>1051.50693877551</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_002_czesc-i-2.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_002_czesc-i-2.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_002_czesc-i-2.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część I. 3</title>
+            <itunes:episode>3</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>1067.91183673469</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_003_czesc-i-3.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_003_czesc-i-3.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_003_czesc-i-3.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część I. 4</title>
+            <itunes:episode>4</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>1405.59673469388</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_004_czesc-i-4.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_004_czesc-i-4.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_004_czesc-i-4.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część I. 5</title>
+            <itunes:episode>5</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>1878.80489795918</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_005_czesc-i-5.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_005_czesc-i-5.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_005_czesc-i-5.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część I. 6</title>
+            <itunes:episode>6</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>740.911020408163</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_006_czesc-i-6.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_006_czesc-i-6.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_006_czesc-i-6.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część I. 7</title>
+            <itunes:episode>7</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>1541.53795918367</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_007_czesc-i-7.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_007_czesc-i-7.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_007_czesc-i-7.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część I. 8</title>
+            <itunes:episode>8</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>2677.65551020408</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_008_czesc-i-8.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_008_czesc-i-8.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_008_czesc-i-8.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część II. 1</title>
+            <itunes:episode>9</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>1431.45795918367</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_009_czesc-ii-1.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_009_czesc-ii-1.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_009_czesc-ii-1.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część II. 2</title>
+            <itunes:episode>10</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>1214.69387755102</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_010_czesc-ii-2.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_010_czesc-ii-2.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_010_czesc-ii-2.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część II. 3</title>
+            <itunes:episode>11</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>1264.22204081633</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_011_czesc-ii-3.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_011_czesc-ii-3.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_011_czesc-ii-3.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część II. 4</title>
+            <itunes:episode>12</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>1264.14367346939</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_012_czesc-ii-4.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_012_czesc-ii-4.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_012_czesc-ii-4.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część II. 5</title>
+            <itunes:episode>13</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>1235.80081632653</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_013_czesc-ii-5.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_013_czesc-ii-5.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_013_czesc-ii-5.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część II. 6</title>
+            <itunes:episode>14</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>349.962448979592</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_014_czesc-ii-6.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_014_czesc-ii-6.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_014_czesc-ii-6.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część II. 7</title>
+            <itunes:episode>15</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>954.174693877551</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_015_czesc-ii-7.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_015_czesc-ii-7.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_015_czesc-ii-7.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część II. 8</title>
+            <itunes:episode>16</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>1379.44816326531</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_016_czesc-ii-8.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_016_czesc-ii-8.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_016_czesc-ii-8.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część II. 9</title>
+            <itunes:episode>17</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>616.254693877551</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_017_czesc-ii-9.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_017_czesc-ii-9.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_017_czesc-ii-9.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część II. 9. Rozdział I</title>
+            <itunes:episode>18</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>114.207346938776</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_018_czesc-ii-9-rozdzial-i.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_018_czesc-ii-9-rozdzial-i.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_018_czesc-ii-9-rozdzial-i.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część II. 9. Rozdział III</title>
+            <itunes:episode>19</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>2251.33714285714</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_019_czesc-ii-9-rozdzial-iii.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_019_czesc-ii-9-rozdzial-iii.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_019_czesc-ii-9-rozdzial-iii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część II. 9. Rozdział I</title>
+            <itunes:episode>20</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>2367.60816326531</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_020_czesc-ii-9-rozdzial-i.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_020_czesc-ii-9-rozdzial-i.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_020_czesc-ii-9-rozdzial-i.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część II. 10</title>
+            <itunes:episode>21</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>861.126530612245</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_021_czesc-ii-10.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_021_czesc-ii-10.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_021_czesc-ii-10.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część III. 1</title>
+            <itunes:episode>22</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>1772.14693877551</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_022_czesc-iii-1.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_022_czesc-iii-1.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_022_czesc-iii-1.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część III. 2</title>
+            <itunes:episode>23</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>2675.72244897959</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_023_czesc-iii-2.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_023_czesc-iii-2.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_023_czesc-iii-2.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część III. 3</title>
+            <itunes:episode>24</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>1714.10285714286</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_024_czesc-iii-3.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_024_czesc-iii-3.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_024_czesc-iii-3.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część III. 4</title>
+            <itunes:episode>25</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>1050.01795918367</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_025_czesc-iii-4.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_025_czesc-iii-4.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_025_czesc-iii-4.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część III. 5</title>
+            <itunes:episode>26</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>565.263673469388</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_026_czesc-iii-5.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_026_czesc-iii-5.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_026_czesc-iii-5.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Część III. 6</title>
+            <itunes:episode>27</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>1410.79510204082</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_027_czesc-iii-6.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_027_czesc-iii-6.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_027_czesc-iii-6.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:02:26 +0000</pubDate>
+            <title>Aneks</title>
+            <itunes:episode>28</itunes:episode>
+            <itunes:author>George Orwell</itunes:author>
+            <itunes:duration>1863.70612244898</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_028_aneks.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_028_aneks.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/orwell-rok-1984_028_aneks.mp3" type="audio/mpeg"/>
+        </item>
+        
+    </channel>
+</rss>
+    
