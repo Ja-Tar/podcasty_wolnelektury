@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title>Antygona</title>
+        <link>https://wolnelektury.pl</link>
+        <language>pl</language>
+        <itunes:author>Sofokles</itunes:author>
+        <itunes:summary>Epoka: Starożytność 
+Rodzaj: Dramat 
+Gatunek: Tragedia</itunes:summary>
+        <description>Epoka: Starożytność 
+Rodzaj: Dramat 
+Gatunek: Tragedia</description>
+        <itunes:image href="https://wolnelektury.pl/media/book/cover_clean/antygona_N292kOq.jpg"/>
+        <itunes:category text="Arts">
+            <itunes:category text="Books"/>
+        </itunes:category>
+        <itunes:type>serial</itunes:type>
+        <itunes:complete>Yes</itunes:complete>
+    
+        <item>
+            <pubDate>Thu, 23 Jul 2026 00:01:57 +0000</pubDate>
+            <title></title>
+            <itunes:episode>1</itunes:episode>
+            <itunes:author>Sofokles</itunes:author>
+            <itunes:duration>4723.51346938776</itunes:duration>
+            <link>https://wolnelektury.pl/media/book/mp3/antygona.mp3</link>
+            <guid>https://wolnelektury.pl/media/book/mp3/antygona.mp3</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/antygona.mp3" type="audio/mpeg"/>
+        </item>
+        
+    </channel>
+</rss>
+    
