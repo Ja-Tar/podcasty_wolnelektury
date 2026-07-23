@@ -1,4 +1,6 @@
 import datetime
+from re import RegexFlag
+
 import requests
 from bs4 import BeautifulSoup, Tag
 import sys
@@ -8,18 +10,18 @@ import re
 main_url = "https://wolnelektury.pl"
 
 
-def fetch_html(url):
+def fetch_html(url: str):
     response = requests.get(url, timeout=10)
     response.raise_for_status()
     return response.text
 
 
-def parse_html(html_content):
+def parse_html(html_content: str):
     soup = BeautifulSoup(html_content, "html.parser")
-    title = getattr(soup.find("h1"), "text", "")
+    title: str = getattr(soup.find("h1"), "text", "")
     all_author_links = soup.find("div", {"class": "l-header__content"}) or Tag()
-    author = getattr(all_author_links.find("a"), "text", "")
-    summary = getattr(soup.find("ul", {"class": "l-aside__info"}), "text", "").strip()
+    author: str = getattr(all_author_links.find("a"), "text", "")
+    summary: str = getattr(soup.find("ul", {"class": "l-aside__info"}), "text", "").strip()
     only_l_elements = soup.find("figure", {"class": "only-l"}) or Tag()
     image_element = only_l_elements.find("img") or Tag()
     image_url = image_element["src"]
@@ -30,7 +32,7 @@ def parse_html(html_content):
     if len(title_spans) == len(chapter_items):
         episode_titles = title_spans
     else:
-        episode_titles = [
+        episode_titles: list[str] = [
             getattr(li.find("span", {"class": "title"}), "text", "") for li in chapter_items
         ]
     episode_duration = [li["data-duration"] for li in chapter_items]
@@ -139,29 +141,15 @@ def parse_number(value):
     return roman_to_int(cleaned)
 
 
-def parse_episode_metadata_from_title(title):
-    match = re.search(
-        r"\bTom\s+([IVXLCDM]+|\d+)\s*,\s*Rozdział\s+([IVXLCDM]+|\d+)\b",
-        title,
-        re.IGNORECASE,
-    )
-    if match:
-        season = parse_number(match.group(1))
-        episode = parse_number(match.group(2))
-        if season is not None and episode is not None:
-            return season, episode
+def parse_episode_metadata_from_title(title: str):
+    season = None
+    episode = None
 
-    match = re.search(
-        r"\bAkt\s+([IVXLCDM]+|\d+)\s*,\s*Scena\s+([IVXLCDM]+|\d+)\b",
-        title,
-        re.IGNORECASE,
-    )
-    if not match:
-        return None, None
-    season = parse_number(match.group(1))
-    episode = parse_number(match.group(2))
-    if season is None or episode is None:
-        return None, None
+    # language=RegExp
+    match: list[str] = re.findall(r"\s([IVXLCDM]+|\d+)(?: |,|\.|$)", title, RegexFlag.M | RegexFlag.S)
+    if len(match) == 2:
+        season = parse_number(match[0])
+        episode = parse_number(match[1])
     return season, episode
 
 
@@ -199,12 +187,30 @@ def order_episode_records(audio_links, episode_titles, episode_duration, episode
         return record["season"] is not None and record["episode"] is not None
 
     records = []
+    last_season = None
+    last_episode = None
     for idx, (link, title, duration, metadata) in enumerate(
         zip(audio_links, episode_titles, episode_duration, episode_metadata)
     ):
         season, episode = metadata
         if season is None or episode is None:
             season, episode = parse_episode_metadata_from_title(title.strip())
+            if season is not None and episode is not None:
+                if last_season is not None and last_episode is not None:
+                    if last_season > season:
+                        season = last_season
+                    if last_season == season and last_episode > episode:
+                        last_episode += 1
+                        episode = last_episode
+                last_season = season
+                last_episode = episode
+            elif last_season is not None and last_episode is not None:
+                # fallback
+                season = last_season
+                last_episode += 1
+                episode = last_episode
+
+
         records.append(
             {
                 "index": idx,
@@ -216,23 +222,11 @@ def order_episode_records(audio_links, episode_titles, episode_duration, episode
             }
         )
 
-    act_scene_sorted = sorted(
-        (r for r in records if is_act_scene_record(r)),
-        key=lambda r: (r["season"], r["episode"], r["index"]),
-    )
-    sorted_iter = iter(act_scene_sorted)
-
-    ordered_records = []
-    for record in records:
-        if is_act_scene_record(record):
-            ordered_records.append(next(sorted_iter))
-        else:
-            ordered_records.append(record)
-    return ordered_records
+    return records
 
 
 def main():
-    # Najpierw sprawdź argument przekazany w CLI, potem zmienną środowiskową PODCAST_URL, a jako fallback - prompt.
+    # Najpierw sprawdź, argument przekazany w CLI, a potem zmienną środowiskową PODCAST_URL, a jako fallback -> prompt.
     url = None
     if len(sys.argv) > 1 and sys.argv[1].strip():
         url = sys.argv[1].strip()
