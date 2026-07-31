@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Podcasty Wolne Lektury - RSS</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; background: #f6f7fb; color: #222; }
+    main { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; }
+    h1 { margin-top: 0; }
+    .card { background: #fff; border-radius: 10px; padding: 1rem; box-shadow: 0 1px 6px rgba(0,0,0,.08); }
+    ul { list-style: none; padding: 0; margin: 0; }
+    li { padding: .7rem 0; border-bottom: 1px solid #e9ecf2; display: flex; justify-content: space-between; gap: 1rem; }
+    li:last-child { border-bottom: none; }
+    a { color: #0057c2; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .meta { color: #666; font-size: .9rem; white-space: nowrap; }
+    .status { color: #555; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Dostępne feedy RSS</h1>
+  <p>Lista jest generowana automatycznie na podstawie plików RSS w tym katalogu.</p>
+  <div class="card">
+    <p id="status" class="status">Ładowanie listy...</p>
+    <ul id="feed-list" hidden></ul>
+  </div>
+</main>
+<script>
+  const listEl = document.getElementById("feed-list");
+  const statusEl = document.getElementById("status");
+
+  const formatSize = (size) => {
+    if (typeof size !== "number") return "";
+    if (size < 1024) return `${size} B`;
+    if (size < 1024 * 1024) return `${(size / 1024).toFixed(1)} KB`;
+    return `${(size / (1024 * 1024)).toFixed(1)} MB`;
+  };
+
+  fetch("feeds.json", { cache: "no-store" })
+    .then((response) => {
+      if (!response.ok) throw new Error("Nie udało się pobrać feeds.json");
+      return response.json();
+    })
+    .then((data) => {
+      const feeds = Array.isArray(data.feeds) ? data.feeds : [];
+      if (!feeds.length) {
+        statusEl.textContent = "Brak dostępnych feedów RSS.";
+        return;
+      }
+
+      statusEl.hidden = true;
+      listEl.hidden = false;
+      feeds.forEach((feed) => {
+        const li = document.createElement("li");
+        const title = document.createElement("a");
+        title.href = feed.url || "#";
+        title.textContent = feed.title || feed.file || "Bez nazwy";
+        title.setAttribute("download", feed.file || "");
+
+        const meta = document.createElement("span");
+        meta.className = "meta";
+        meta.textContent = `${feed.file || ""} · ${formatSize(feed.size_bytes)}`;
+
+        li.appendChild(title);
+        li.appendChild(meta);
+        listEl.appendChild(li);
+      });
+    })
+    .catch((error) => {
+      statusEl.textContent = `Błąd: ${error.message}`;
+    });
+</script>
+</body>
+</html>
