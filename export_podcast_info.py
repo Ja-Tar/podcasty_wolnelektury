@@ -56,6 +56,7 @@ def create_rss_feed(
     author,
     summary,
     image_url,
+    link_url,
     audio_links,
     episode_titles,
     episode_duration,
@@ -70,7 +71,7 @@ def create_rss_feed(
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
     <channel>
         <title>{escaped_title}</title>
-        <link>https://wolnelektury.pl</link>
+        <link>{link_url}</link>
         <language>pl</language>
         <itunes:author>{escaped_author}</itunes:author>
         <itunes:summary>{escaped_summary}</itunes:summary>
@@ -100,6 +101,8 @@ def create_rss_feed(
         escaped_item_link = escape(item_link)
         guid = hashlib.sha256(item_link.encode("utf-8")).hexdigest()
         escaped_item_title = escape(record["title"].strip())
+        if not escaped_item_title:
+            escaped_item_title = escaped_title
         duration = str(record["duration"]).strip()
         if duration.endswith(".0"):
             duration = duration[:-2]
@@ -110,7 +113,6 @@ def create_rss_feed(
             <itunes:episode>{episode_tag}</itunes:episode>{season_tag}
             <itunes:author>{escaped_author}</itunes:author>
             <itunes:duration>{duration}</itunes:duration>
-            <link>{escaped_item_link}</link>
             <guid isPermaLink="false">{guid}</guid>
             <enclosure url="{escaped_item_link}" type="audio/mpeg"/>
         </item>
@@ -273,6 +275,7 @@ def main():
         author,
         summary,
         image_url,
+        url,
         audio_links,
         episode_titles,
         episode_duration,
