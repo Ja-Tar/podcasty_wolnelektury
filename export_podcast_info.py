@@ -1,5 +1,7 @@
 import datetime
 from re import RegexFlag
+import hashlib
+from xml.sax.saxutils import escape
 
 import requests
 from bs4 import BeautifulSoup, Tag
@@ -60,21 +62,27 @@ def create_rss_feed(
     episode_metadata,
     output_file,
 ):
+    escaped_title = escape(title)
+    escaped_author = escape(author)
+    escaped_summary = escape(summary)
+    image_href = escape(main_url + image_url, {'"': "&quot;"})
     rss_feed = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
     <channel>
-        <title>{title}</title>
+        <title>{escaped_title}</title>
         <link>https://wolnelektury.pl</link>
         <language>pl</language>
-        <itunes:author>{author}</itunes:author>
-        <itunes:summary>{summary}</itunes:summary>
-        <description>{summary}</description>
-        <itunes:image href="{main_url + image_url}"/>
+        <itunes:author>{escaped_author}</itunes:author>
+        <itunes:summary>{escaped_summary}</itunes:summary>
+        <description>{escaped_summary}</description>
+        <itunes:image href="{image_href}"/>
+        <category>Arts</category>
+        <category>Books</category>
         <itunes:category text="Arts">
             <itunes:category text="Books"/>
         </itunes:category>
         <itunes:type>serial</itunes:type>
-        <itunes:complete>Yes</itunes:complete>
+        <itunes:complete>yes</itunes:complete>
     """
     date = datetime.datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
     episode_records = order_episode_records(
@@ -87,16 +95,23 @@ def create_rss_feed(
             if record["season"] is not None
             else ""
         )
+        item_link = main_url + record["link"]
+        escaped_item_link = escape(item_link)
+        guid = hashlib.sha256(item_link.encode("utf-8")).hexdigest()
+        escaped_item_title = escape(record["title"].strip())
+        duration = str(record["duration"]).strip()
+        if duration.endswith(".0"):
+            duration = duration[:-2]
         rss_feed += f"""
         <item>
             <pubDate>{date}</pubDate>
-            <title>{record["title"].strip()}</title>
+            <title>{escaped_item_title}</title>
             <itunes:episode>{episode_tag}</itunes:episode>{season_tag}
-            <itunes:author>{author}</itunes:author>
-            <itunes:duration>{record["duration"]}</itunes:duration>
-            <link>{main_url + record["link"]}</link>
-            <guid>{main_url + record["link"]}</guid>
-            <enclosure url="{main_url + record["link"]}" type="audio/mpeg"/>
+            <itunes:author>{escaped_author}</itunes:author>
+            <itunes:duration>{duration}</itunes:duration>
+            <link>{escaped_item_link}</link>
+            <guid isPermaLink="false">{guid}</guid>
+            <enclosure url="{escaped_item_link}" type="audio/mpeg"/>
         </item>
         """
     rss_feed += """
