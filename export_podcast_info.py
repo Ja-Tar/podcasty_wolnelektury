@@ -83,6 +83,7 @@ def create_rss_feed(
         </itunes:category>
         <itunes:type>serial</itunes:type>
         <itunes:complete>yes</itunes:complete>
+        <itunes:explicit>false</itunes:explicit>
     """
     date = datetime.datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
     episode_records = order_episode_records(

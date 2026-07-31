@@ -19,9 +19,10 @@ Gatunek: Powieść</description>
         </itunes:category>
         <itunes:type>serial</itunes:type>
         <itunes:complete>yes</itunes:complete>
+        <itunes:explicit>no</itunes:explicit>
     
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część I. 1</title>
             <itunes:episode>1</itunes:episode>
             <itunes:season>1</itunes:season>
@@ -33,7 +34,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część I. 2</title>
             <itunes:episode>2</itunes:episode>
             <itunes:season>1</itunes:season>
@@ -45,7 +46,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część I. 3</title>
             <itunes:episode>3</itunes:episode>
             <itunes:season>1</itunes:season>
@@ -57,7 +58,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część I. 4</title>
             <itunes:episode>4</itunes:episode>
             <itunes:season>1</itunes:season>
@@ -69,7 +70,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część I. 5</title>
             <itunes:episode>5</itunes:episode>
             <itunes:season>1</itunes:season>
@@ -81,7 +82,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część I. 6</title>
             <itunes:episode>6</itunes:episode>
             <itunes:season>1</itunes:season>
@@ -93,7 +94,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część I. 7</title>
             <itunes:episode>7</itunes:episode>
             <itunes:season>1</itunes:season>
@@ -105,7 +106,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część I. 8</title>
             <itunes:episode>8</itunes:episode>
             <itunes:season>1</itunes:season>
@@ -117,7 +118,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część II. 1</title>
             <itunes:episode>1</itunes:episode>
             <itunes:season>2</itunes:season>
@@ -129,7 +130,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część II. 2</title>
             <itunes:episode>2</itunes:episode>
             <itunes:season>2</itunes:season>
@@ -141,7 +142,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część II. 3</title>
             <itunes:episode>3</itunes:episode>
             <itunes:season>2</itunes:season>
@@ -153,7 +154,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część II. 4</title>
             <itunes:episode>4</itunes:episode>
             <itunes:season>2</itunes:season>
@@ -165,7 +166,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część II. 5</title>
             <itunes:episode>5</itunes:episode>
             <itunes:season>2</itunes:season>
@@ -177,7 +178,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część II. 6</title>
             <itunes:episode>6</itunes:episode>
             <itunes:season>2</itunes:season>
@@ -189,7 +190,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część II. 7</title>
             <itunes:episode>7</itunes:episode>
             <itunes:season>2</itunes:season>
@@ -201,7 +202,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część II. 8</title>
             <itunes:episode>8</itunes:episode>
             <itunes:season>2</itunes:season>
@@ -213,7 +214,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część II. 9</title>
             <itunes:episode>9</itunes:episode>
             <itunes:season>2</itunes:season>
@@ -225,7 +226,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część II. 9. Rozdział I</title>
             <itunes:episode>10</itunes:episode>
             <itunes:season>2</itunes:season>
@@ -237,7 +238,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część II. 9. Rozdział III</title>
             <itunes:episode>11</itunes:episode>
             <itunes:season>2</itunes:season>
@@ -249,7 +250,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część II. 9. Rozdział I</title>
             <itunes:episode>12</itunes:episode>
             <itunes:season>2</itunes:season>
@@ -261,7 +262,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część II. 10</title>
             <itunes:episode>13</itunes:episode>
             <itunes:season>2</itunes:season>
@@ -273,7 +274,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część III. 1</title>
             <itunes:episode>1</itunes:episode>
             <itunes:season>3</itunes:season>
@@ -285,7 +286,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część III. 2</title>
             <itunes:episode>2</itunes:episode>
             <itunes:season>3</itunes:season>
@@ -297,7 +298,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część III. 3</title>
             <itunes:episode>3</itunes:episode>
             <itunes:season>3</itunes:season>
@@ -309,7 +310,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część III. 4</title>
             <itunes:episode>4</itunes:episode>
             <itunes:season>3</itunes:season>
@@ -321,7 +322,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część III. 5</title>
             <itunes:episode>5</itunes:episode>
             <itunes:season>3</itunes:season>
@@ -333,7 +334,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Część III. 6</title>
             <itunes:episode>6</itunes:episode>
             <itunes:season>3</itunes:season>
@@ -345,7 +346,7 @@ Gatunek: Powieść</description>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:23:52 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 12:30:39 +0000</pubDate>
             <title>Aneks</title>
             <itunes:episode>7</itunes:episode>
             <itunes:season>3</itunes:season>
