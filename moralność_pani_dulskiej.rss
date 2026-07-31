@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
     <channel>
         <title>Moralność pani Dulskiej</title>
-        <link>https://wolnelektury.pl</link>
+        <link>https://wolnelektury.pl/katalog/lektura/moralnosc-pani-dulskiej/</link>
         <language>pl</language>
         <itunes:author>Gabriela Zapolska</itunes:author>
         <itunes:summary>Epoka: Modernizm 
@@ -22,34 +22,31 @@ Gatunek: Komedia Tragifarsa</description>
         <itunes:explicit>false</itunes:explicit>
     
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:36:38 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 13:26:07 +0000</pubDate>
             <title>akt I</title>
             <itunes:episode>1</itunes:episode>
             <itunes:author>Gabriela Zapolska</itunes:author>
             <itunes:duration>3125</itunes:duration>
-            <link>https://wolnelektury.pl/media/book/mp3/moralnosc-pani-dulskiej_001_akt-i.mp3</link>
             <guid isPermaLink="false">bd6c8eec34567dfb8246e625b153a48fab0804461e6729fdff88120c6e467128</guid>
             <enclosure url="https://wolnelektury.pl/media/book/mp3/moralnosc-pani-dulskiej_001_akt-i.mp3" type="audio/mpeg"/>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:36:38 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 13:26:07 +0000</pubDate>
             <title>akt II</title>
             <itunes:episode>2</itunes:episode>
             <itunes:author>Gabriela Zapolska</itunes:author>
             <itunes:duration>2568</itunes:duration>
-            <link>https://wolnelektury.pl/media/book/mp3/moralnosc-pani-dulskiej_002_akt-ii.mp3</link>
             <guid isPermaLink="false">557251b8ba1e9403f0f23e7436b35fdcfa6fd53c305d02e7e06edb17f3757946</guid>
             <enclosure url="https://wolnelektury.pl/media/book/mp3/moralnosc-pani-dulskiej_002_akt-ii.mp3" type="audio/mpeg"/>
         </item>
         
         <item>
-            <pubDate>Fri, 31 Jul 2026 12:36:38 +0000</pubDate>
+            <pubDate>Fri, 31 Jul 2026 13:26:07 +0000</pubDate>
             <title>akt III</title>
             <itunes:episode>3</itunes:episode>
             <itunes:author>Gabriela Zapolska</itunes:author>
             <itunes:duration>2392</itunes:duration>
-            <link>https://wolnelektury.pl/media/book/mp3/moralnosc-pani-dulskiej_003_akt-iii.mp3</link>
             <guid isPermaLink="false">5cea08c82a1e8742147cea998dc8a770998f5a905cda735e5a2ded2c24dfeaae</guid>
             <enclosure url="https://wolnelektury.pl/media/book/mp3/moralnosc-pani-dulskiej_003_akt-iii.mp3" type="audio/mpeg"/>
         </item>
