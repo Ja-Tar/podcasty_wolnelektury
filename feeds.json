@@ -1,0 +1,46 @@
+{
+  "feeds": [
+    {
+      "file": "antygona.rss",
+      "title": "Antygona",
+      "url": "antygona.rss",
+      "size_bytes": 1508
+    },
+    {
+      "file": "dziady_część_iii.rss",
+      "title": "Dziady, część III",
+      "url": "dziady_cz%C4%99%C5%9B%C4%87_iii.rss",
+      "size_bytes": 8678
+    },
+    {
+      "file": "feedKondradWallenrod.rss",
+      "title": "Adam Mickiewicz - Konrad Wallenrod",
+      "url": "feedKondradWallenrod.rss",
+      "size_bytes": 9069
+    },
+    {
+      "file": "lalka.rss",
+      "title": "Lalka",
+      "url": "lalka.rss",
+      "size_bytes": 28312
+    },
+    {
+      "file": "moralność_pani_dulskiej.rss",
+      "title": "Moralność pani Dulskiej",
+      "url": "moralno%C5%9B%C4%87_pani_dulskiej.rss",
+      "size_bytes": 2886
+    },
+    {
+      "file": "rok_1984.rss",
+      "title": "Rok 1984",
+      "url": "rok_1984.rss",
+      "size_bytes": 20352
+    },
+    {
+      "file": "wesele.rss",
+      "title": "Wesele",
+      "url": "wesele.rss",
+      "size_bytes": 69110
+    }
+  ]
+}
