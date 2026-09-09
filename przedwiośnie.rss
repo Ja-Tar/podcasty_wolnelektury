@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title>Przedwiośnie</title>
+        <link>https://wolnelektury.pl/katalog/lektura/przedwiosnie/</link>
+        <language>pl</language>
+        <itunes:author>Stefan Żeromski</itunes:author>
+        <itunes:summary>Epoka: Dwudziestolecie międzywojenne 
+Rodzaj: Epika 
+Gatunek: Powieść</itunes:summary>
+        <description>Epoka: Dwudziestolecie międzywojenne 
+Rodzaj: Epika 
+Gatunek: Powieść</description>
+        <itunes:image href="https://wolnelektury.pl/media/book/cover_clean/przedwiosnie_FxvbXtu.jpg"/>
+        <category>Arts</category>
+        <category>Books</category>
+        <itunes:category text="Arts">
+            <itunes:category text="Books"/>
+        </itunes:category>
+        <itunes:type>serial</itunes:type>
+        <itunes:complete>yes</itunes:complete>
+        <itunes:explicit>false</itunes:explicit>
+    
+        <item>
+            <pubDate>Wed, 09 Sep 2026 20:14:22 +0000</pubDate>
+            <title>„Rodowód”</title>
+            <itunes:episode>1</itunes:episode>
+            <itunes:author>Stefan Żeromski</itunes:author>
+            <itunes:duration>1152.96653061224</itunes:duration>
+            <guid isPermaLink="false">e02f7218bab12450971a261c6b863e50fb7a9a04b2c02e697da2de0cdffcbb97</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/przedwiosnie_001_rodowod.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Wed, 09 Sep 2026 20:14:22 +0000</pubDate>
+            <title>cz. I</title>
+            <itunes:episode>2</itunes:episode>
+            <itunes:author>Stefan Żeromski</itunes:author>
+            <itunes:duration>11184.587755102</itunes:duration>
+            <guid isPermaLink="false">e9396574d147379b8208f1eda106128d3939fa3968e4fc8166a6bab2be9ca2fd</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/przedwiosnie_002_cz-i.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Wed, 09 Sep 2026 20:14:22 +0000</pubDate>
+            <title>cz. II</title>
+            <itunes:episode>3</itunes:episode>
+            <itunes:author>Stefan Żeromski</itunes:author>
+            <itunes:duration>18478.106122449</itunes:duration>
+            <guid isPermaLink="false">aa5a6273ac0ed1c547f6f6808e6c0094ee88472a3000bea271fc52389b9728a6</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/przedwiosnie_003_cz-ii.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Wed, 09 Sep 2026 20:14:22 +0000</pubDate>
+            <title>cz. III 1</title>
+            <itunes:episode>4</itunes:episode>
+            <itunes:author>Stefan Żeromski</itunes:author>
+            <itunes:duration>4019.4612244898</itunes:duration>
+            <guid isPermaLink="false">7980378084863a8452876bf63d22036782b7ab8d2767803cb0801acb318c82b9</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/przedwiosnie_004_cz-iii-1.mp3" type="audio/mpeg"/>
+        </item>
+        
+        <item>
+            <pubDate>Wed, 09 Sep 2026 20:14:22 +0000</pubDate>
+            <title>cz. III 2</title>
+            <itunes:episode>5</itunes:episode>
+            <itunes:author>Stefan Żeromski</itunes:author>
+            <itunes:duration>4318.19755102041</itunes:duration>
+            <guid isPermaLink="false">73cbf443da8896a6158fba5f3cc45607fd52bc9224a5e599171564f646851018</guid>
+            <enclosure url="https://wolnelektury.pl/media/book/mp3/przedwiosnie_005_cz-iii-2.mp3" type="audio/mpeg"/>
+        </item>
+        
+    </channel>
+</rss>
+    
